@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="http://www.slideshare.net/manzamb/introduccin-a-la-web-semntica">
+	<dc:title>Introducción a la Web Semantica</dc:title>
+	<dc:description>Diapositivas con información sobre las tecnologías que se manejan en la Web Semantica</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>Web Semantica</rdf:li>
+			<rdf:li>XML</rdf:li>
+			<rdf:li>RDF</rdf:li>
+			<rdf:li>OWL</rdf:li>
+			<rdf:li>Metadatos</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="http://www.prometeo.unicauca.edu.co/manzamb/" rdfs:Literal="Miguel Angel niño Zambrano" />
+	<dc:publisher dc:source="http://www.unicauca.edu.co" rdfs:Literal="Universidad del Cauca" />
+	<dc:license dc:source="http://creativecommons.org/licenses/by/3.0/deed.es" rdfs:Literal="Creative Commons (Reconocimiento 3.0 Genérica)" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2009-09-24</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/InteractiveResource" />
+	<dc:relation dc:source="http://pis.unicauca.edu.co/moodle/course/view.php?id=403" rdfs:Literal="Página Curso Web Semantica" />
+	<dc:relation dc:source="" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>

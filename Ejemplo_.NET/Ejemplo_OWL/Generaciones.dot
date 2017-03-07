@@ -1,0 +1,14 @@
+digraph Generaciones {
+	node [label="\N"];
+	graph [bb="0,0,736,36"];
+	Hermana [label=Hermana, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="33,18", width="0.92", height="0.50"];
+	Hija [label=Hija, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="111,18", width="0.75", height="0.50"];
+	Mujer [label=Mujer, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="183,18", width="0.75", height="0.50"];
+	Padre [label=Padre, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="255,18", width="0.75", height="0.50"];
+	Abuelo [label=Abuelo, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="328,18", width="0.78", height="0.50"];
+	Abuela [label=Abuela, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="401,18", width="0.75", height="0.50"];
+	Madre [label=Madre, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="473,18", width="0.75", height="0.50"];
+	Hombre [label=Hombre, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="549,18", width="0.86", height="0.50"];
+	Hijo [label=Hijo, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="625,18", width="0.75", height="0.50"];
+	Hermano [label=Hermano, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="703,18", width="0.92", height="0.50"];
+}

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<!DOCTYPE listaContactos SYSTEM "DTDContactos.dtd">-->
+<listaContactos>
+  <PERSONACONTACTO idpersona="ccobos" tipoPersona="amigo">
+    <nombre>Carlos Alberto</nombre>
+    <apellidos>Cobos Lozada</apellidos>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>ccobos@unicauca.edu.co</descripcion>
+    </correos>
+    <correos>
+      <idcorreo>2</idcorreo>
+      <descripcion>cobos.carlos@hotmail.com</descripcion>
+      <tipoc>personal</tipoc>
+    </correos>
+    <direcciones>
+      <iddireccion>1</iddireccion>
+      <calle>5</calle>
+      <numerocasa>4-70</numerocasa>
+      <ciudad>Popayán</ciudad>
+      <pais>Colombia</pais>
+      <tipod  lugar="oficina"/>
+    </direcciones>
+    <relacion amigo-de ="emezav" familiar-de="mmendoza"/>
+  </PERSONACONTACTO>
+
+  <PERSONACONTACTO idpersona="emezav" tipoPersona="profesional">
+    <nombre>Erwin</nombre>
+    <apellidos>Meza Vega</apellidos>
+    <correos>
+      <idcorreo>3</idcorreo>
+      <descripcion>emezav@unicauca.edu.co</descripcion>
+    </correos>
+    <direcciones>
+      <iddireccion>2</iddireccion>
+      <calle>3</calle>
+      <numerocasa>9-55</numerocasa>
+      <ciudad>Bucaramanga</ciudad>
+      <pais>Colombia</pais>
+      <tipod  lugar="casa"/>
+    </direcciones>
+    <relacion amigo-de ="ccobos" familiar-de=""/>
+  </PERSONACONTACTO>
+
+  <PERSONACONTACTO idpersona="mmendoza" tipoPersona="amigo">
+    <nombre>Martha Eliana</nombre>
+    <apellidos>Mendoza</apellidos>
+    <correos>
+      <idcorreo>4</idcorreo>
+      <descripcion>mmendoza@unicauca.edu.co</descripcion>
+    </correos>
+    <direcciones>
+      <iddireccion>3</iddireccion>
+      <calle>5</calle>
+      <numerocasa>4-70</numerocasa>
+      <ciudad>Popayán</ciudad>
+      <pais>Colombia</pais>
+      <tipod  lugar="oficina"/>
+    </direcciones>
+    <relacion familiar-de="ccobos" amigo-de="emezav"/>
+  </PERSONACONTACTO>
+</listaContactos>

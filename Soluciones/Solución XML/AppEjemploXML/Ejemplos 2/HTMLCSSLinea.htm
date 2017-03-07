@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Probando los estilos en línea</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 88px;
+        }
+
+        li
+        {
+            padding: 0em;
+            margin-bottom: 0.3em;
+            line-height: 1.25em;
+        }
+    </style>
+    
+<!--    Otra forma de definir estilo en línea relacionado a un tag -->
+<style type="text/css">
+<!--
+    h2.azul {color: blue} 
+    h2.verde {color: green; text-align: center} 
+    h2.amarilla { color: yellow } 
+      .cursiva { font-style: italic } 
+-->
+</style>
+    
+</head>
+<body>
+<h1>Utilización de los CSS</h1>
+<p >
+  <h2 class ="azul">Ejemplos de uso de los estilos</h2>
+</p>
+<table style="border-style: groove; width: 100%;">
+    <tr>
+        <td class="style1 cursiva" style="border-style: outset">
+            Definición</td>
+        <td style="border-style: outset">
+            CSS (&quot;Cascading Style Sheets&quot;) es una metodología para dar uniformidad al uso de
+            <i>tags </i>en documentos HTML / XHTML</td>
+    </tr>
+    <tr>
+        <td class="style1" style="border-style: solid">
+            Formas de Definir Estilos</td>
+        <td>
+            <ol type="I">
+                <li>Uniformidad en Varios Documentos (Archivo CSS) </li>
+                <li>Uniformidad en Documento (Tags <code>&lt;style&gt; </code>y <code>&lt;span&gt; </code>)
+                </li>
+                <li>Uniformidad en Tag ( Clases y en Linea ) </li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

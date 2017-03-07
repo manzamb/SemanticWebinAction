@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2f3a7e65-789c-4a89-9e87-def5222bbc7c}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ProModeloAgenda</AssemblyName>
+    <Name>ProModeloAgenda</Name>
+    <RootNamespace>ProModeloAgenda</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ObjectOrientedModel_1.oom">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLModel_1.xsm">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

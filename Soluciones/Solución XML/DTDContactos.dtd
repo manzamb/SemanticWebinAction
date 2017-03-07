@@ -1,0 +1,79 @@
+﻿<!--
+Este es un ejemplo propio de un DTD, para formalizar la estructura
+de un documento HTML que contendra contactos de una Agenda Electrónica.
+
+Draft: $Date: 2009/09/30 18:17:08 $
+
+Autores:
+Miguel Angel Niño <manzamb@unicauca.edu.co>
+-->
+
+<!--                 DECLARACIONES DE TIPO DE DOCUMENTO Y MODELO DE CONTENIDO                     -->
+<!-- Este es un elemeto raiz que reune todos los contactos-->
+<!ELEMENT listaContactos (PERSONACONTACTO)+>
+
+<!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos, fechanacimiento, correos, telefonos, direcciones
+       - Es opcional (?): fechanacimiento
+       - Se compone de 1 o más subelementos: correos, direcciones
+       - Se compone de 0 o más subelementos: telefonos-->
+<!ELEMENT PERSONACONTACTO (nombre, apellidos, fechanacimiento?, correos+, telefonos*, direcciones+, relacion?) >
+
+<!-- Elementos del segundo nivel del arbol-->
+<!ELEMENT correos (idcorreo, descripcion, tipoc?)>
+<!ELEMENT telefonos (idtelefono, numero)>
+<!ELEMENT direcciones (iddireccion, calle, numerocasa, ciudad?, pais?, tipod?)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO--> 
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT relacion EMPTY>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de correos-->
+<!ELEMENT idcorreo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tipoc (#PCDATA)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de telefonos-->
+<!ELEMENT idtelefono (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de direcciones-->
+<!ELEMENT iddireccion (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numerocasa (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT tipod EMPTY>
+
+
+<!--                 DECLARACIONES DE LISTA DE ATRIBUTOS                     -->
+<!-- El atributo tipoPersona tiene dos valores (familiar, profesional). Valor por defecto profesional -->
+<!ATTLIST PERSONACONTACTO tipoPersona (amigo | familiar | profesional) "profesional">
+
+<!-- Estos atributos se relacionan entre si: Cuando se crea una PERSONACONTACTO se puede relacionar a
+     otro contacto que sea aun falimiar o un amigo-->
+<!ATTLIST PERSONACONTACTO idpersona ID #REQUIRED>
+<!ATTLIST relacion amigo-de IDREFS #IMPLIED familiar-de IDREFS #IMPLIED>
+
+<!-- El atributo tipoTelefono tiene dos valores (oficina, personal). No tiene valor por defecto y es Requerido -->
+<!ATTLIST telefonos tipoTelefono (oficina | personal) #REQUIRED>
+
+<!-- El atributo indicativo puede tomar cualquier valor texto. No tienen valor por defecto y es opcional -->
+<!ATTLIST telefonos indicativo CDATA #IMPLIED>
+
+<!ATTLIST tipod lugar (oficina | casa) #IMPLIED>
+
+<!--                 DECLARACIONES DE ENTIDADES                     -->
+<!-- Una entidad puede no ser más que una abreviatura que se utiliza como una forma corta de algunos
+     textos. Al usar una referencia a esta entidad, el analizador sintáctico reemplaza la referencia
+     con su contenido. En otras ocasiones es una referencia a un objeto externo o local. -->
+<!-- Ejemplo de una entidad general interna analizada-->
+<!ENTITY titulolc "LISTA DE CONTACTOS DE">
+
+<!-- Ejemplo de una entidad general externa analizada-->
+<!--<!ENTITY intro SYSTEM "http://www.prometeo.unicauca.edu.co/CursoWebSemantica/intro.xml">-->
+
+<!-- Ejemplo de una entidad no analizada-->
+<!--<!ENTITY logo SYSTEM "http://www.prometeo.unicauca.edu.co/CursoWebSemantica/todosSGML.gif">-->

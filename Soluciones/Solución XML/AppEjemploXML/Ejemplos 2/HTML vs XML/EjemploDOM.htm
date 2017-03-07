@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Tomado de: http://www.elholgazan.com/2007/07/ejemplo-de-uso-de-dom.html ¡-->
+<html>
+<head>
+
+<title>Ejemplo de DOM</title>
+<style type="text/css">
+p.red {COLOR: red}
+p.blue {COLOR: blue}
+</style>
+<script type="text/javascript">
+ function modificarEstructura() {
+  var paraArray = document.getElementsByTagName("p");
+  paraArray[0].firstChild.nodeValue = "Parrafo Uno";
+  paraArray[0].nextSibling.firstChild.nodeValue = "Parrafo Dos";
+  paraArray[0].nextSibling.nextSibling.firstChild.nodeValue = "Parrafo Tres";
+  var headline = document.getElementsByTagName("h1");
+  headline[0].removeChild(headline[0].firstChild);
+  var underline = document.createElement("u");
+  underline.appendChild(document.createTextNode("Nueva cabecera!"));
+  headline[0].appendChild(underline);
+
+  var thirdPara = document.getElementById("tercero");
+  thirdPara.setAttribute("class", "blue");
+
+  paraArray[0].style.fontWeight = "bold";
+}
+</script>
+
+</head>
+<body>
+<h1>Cabecera!</h1>
+<p class="red">Primero</p>
+
+<p>Segundo</p>
+<p id="tercero">Tercero</p>
+<a href="JavaScript:modificarEstructura();">modificar estructura</a>
+<p>DOM es esencialmente una interfaz de programación de aplicaciones que proporciona un conjunto estándar de objetos para representar documentos HTML y XML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos.</p>
+</body>
+</html>

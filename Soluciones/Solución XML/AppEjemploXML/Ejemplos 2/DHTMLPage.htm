@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Página sin título</title>
+    <style type="text/css">
+
+
+h4, h5, h6
+{
+    font-size: 1em;
+    padding: 0em;
+}
+
+ul, ul ul
+{
+    list-style-type: disc;
+}
+
+ul, ol
+{
+    padding: 0;
+    margin: 0.75em 0 1em 1.5em;
+}
+
+li
+{
+    padding: 0em;
+    margin-bottom: 0.3em;
+    line-height: 1.25em;
+}
+
+        .style2
+        {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <h1>Pagina con algo de DHTML</h1></p>
+    <h4 align="left">
+        Principales diferencias entre HTML y XHTML.
+    </h4>
+    <div style="position: absolute; left: 6px; top: 173px; width: 309px; height: 622px; 
+               background-color: red; z-Index='-1'">
+        <span class="style2">
+        <br />
+        <br />
+        <br />
+        <br />
+        Antes de dar por terminada la sección de lenguajes de marcación, es conveniente 
+        enumerar cuales son las principales diferencias entre escribir sintaxis para 
+        XHTML comparado con HTML :</span>
+     </div>
+    </p>
+    <ul>
+        <li>
+                <div style="position: absolute; left: 331px; top: 324px; width: 347px; height: 154px; 
+               background-color: #FFCCFF; ">
+                <b>Letras minúsculas para XHTML </b>: Todo tag en XHTML debe estar escrito en 
+                letras minúsculas. En las diversas versiones de HTML no se especifica ninguna 
+                restricción respecto a este lineamiento, por lo que en ciertas circunstancias 
+                era posible optar por escribir tags con letras mayúsculas como mecanismo 
+                distintivo, XHTML no permite esta facilidad.
+                </div>
+            </p>
+        </li>
+        <li>
+                <div 
+                style="position: absolute; left: 330px; top: 679px; width: 350px; height: 120px; 
+               background-color: red; font-family: Arial, Helvetica, sans-serif; color: #FFFF00;">
+                <b>Todo atributo de XHTML debe estar comillado </b>: Mientras en HTML es posible 
+                indicar atributos de elementos sin utilizar comillas (<code>&lt;td align=center&gt;</code>), 
+                XHTML define que todo atributo debe estar propiamente declarado con comillas (<code>&lt;td 
+                align=&quot;center&quot;&gt;</code>).
+                </div>
+            </p>
+        </li>
+        <li>
+                <div style="position: absolute; left: 329px; top: 169px; width: 351px; height: 137px; 
+               background-color: #CCFFCC; margin-top: 0px;">
+                <b>Ningún atributo en XHTML puede estar aislado </b>: Este caso aplica 
+                específicamente a los atributos que en HTML no reciben valor alguno, tal seria 
+                el caso del atributo <code>selected</code> en formas (<code>&lt;option selected&gt;</code>), 
+                en XHTML su definición debe duplicarse (<code>&lt;option selected=&quot;selected&quot;&gt;</code>).
+                </div>
+            </p>
+        </li>
+        <li>
+                <div style="position: absolute; left: 331px; top: 496px; width: 348px; height: 167px; 
+               background-color: #CCCCFF; ">
+                <b>Clausura para elementos XHTML sin contenido </b>: Se refiere a los elementos 
+                que por su naturaleza no incluyen contenido en su estructura, como: <code>&lt;br&gt;</code> 
+                o <code>&lt;hr&gt;</code>, en XHTML estos deben ser clausurados acordemente, ya sea 
+                definiendo nuevamente su contraparte de clausura <code>&lt;hr&gt;&lt;/hr&gt;</code>, o bien, 
+                utilizando la nomenclatura de clausura prematura <code>&lt;br<b>/</b>&gt;</code> (Una 
+                diagonal antes de terminar el Tag) .
+                </div>
+            </p>
+        </li>
+    </ul>
+    <p>
+        &nbsp;</p>
+
+</body>
+</html>

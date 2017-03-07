@@ -1,0 +1,97 @@
+﻿HTML
+Porqué se necesita HTML ? 
+HTML ("Hypertext Markup Language") ofrece lineamientos para definir el despliegue de información en un Navegador o "Browser".
+
+El surgimiento de HTML se debió al eterno problema de formatos en sistemas de computo, si ha trabajado en un ambiente Windows esto seguramente lo ha experimentado cuando intenta abrir un documento y:
+
+•No es posible abrirlo debido a la versión del documento. 
+•Los margenes o el tipo de letra varían dependiendo de la computadora donde fue abierto el documento. 
+•Los saltos de página se alteran por razones no determinadas. 
+Ante estas discrepancias para distribuir información y debido a que el intercambio y despliegue de información se intentaba dar en una red inmensa y caótica como Internet, surgió el estándar HTML, el cual hoy en día se encuentra en su versión 4.01 y es administrado por el W3C-"World Wide Web Consortium" ( http://www.w3.org ) . 
+
+El hecho que HTML sea un estándar hace que su evolución sea muy conservadora, esto implica que funcionalidades adicionales sean difíciles de integrarse y formen parte del estándar como tal, ante esta problemática muchos Navegadores han sido diseñados para ejecutar tareas que se encuentran fuera del estándar HTML, mientras esto permite diseños más versátiles, el uso de elementos HTML propietarios restringen que determinado diseño sea visualizado de la misma manera, o bien, correctamente en distintos Navegadores.
+
+Aunque los sitios más avanzados en Internet poseen mecanismos para detectar el tipo de Navegador que esta solicitando información (Mediante "Headers") y así retornar un diseño apropiado, esto requiere de un gran diseño y esfuerzo para mantener distintas versiones de acuerdo a los "Browsers" que soliciten información, es por esta razón que para sitios de Internet en general, es fuertemente recomendado apegarse estrictamente al estándar HTML; las siguientes secciones de este curso describirán únicamente aquellos elementos HTML que estén apegados a la versión 4.01, por lo que su funcionamiento y ejecución será idéntico en los diversos "Browsers" del mercado que se apeguen a dicho estándar; en secciones donde no sea posible apegarse a este estándar será descrito el código mixto necesario para lograr una interoperabilidad razonable. 
+
+
+
+Cómo se genera ? 
+Un documento HTML puede ser generado en un editor de textos simplemente agregándole la extensión .html o .htm al archivo en cuestión , al utilizarse un editor de texto el archivo es manipulado sin ningún tipo de formato implícito , esto es, toda la información es legible y carente de formato al ser analizada, esto a diferencia de procesadores de palabras como "Word" o "WordPerfect" que generan un determinado formato explicito el cual únicamente puede ser interpretado por dicho paquete. Algunos editores de texto son : "Notepad" para ambientes Windows, Emacs y gedit para ambientes Unix/Linux.
+
+Como se observará a lo largo de este curso, el hecho de generar elementos HTML en un editor de textos puede resultar laborioso, por esta razón han surgido herramientas especiales para editar exclusivamente HTML que permiten generar documentos a través de iconos y ventanas ("Drag & Drop"), sin embargo, aunque inicialmente estas herramientas pueden acelerar el desarrollo de documentos HTML, en ocasiones su utilización entorpece el mismo desarrollo. Lo anterior se debe a que utilizan símbolos propietarios, que aunque no afectan el despliegue en HTML, al momento de intentar alterarse un documento de este tipo manualmente (En un editor de textos) lo tornan casi imposible de leer; básicamente el uso de este tipo de Editores HTML dependerá tanto del presupuesto disponible así como el tipo de diseño que se desee realizarse.
+
+Algunos editores HTML:
+
+•Notetab ( http://www.notetab.com ) 
+•Adobe GoLive ( http://www.adobe.com/products/golive/featurelist.html ) 
+•Microsoft FrontPage ( http://www.microsoft.com/frontpage ) 
+Un documento básico HTML 
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+<title> Documento Básico en HTML </title>
+</head>
+
+<body>
+<h2> Este es el Titulo </h2>
+
+<!-- Este es un comentario de recordatorio que no aparecerá desplegado-->
+
+<a href=mailto:webmaster@osmosislatina.com> Comuniquese </a>
+
+</body>
+</html>
+ 
+
+Como se puede observar en el fragmento anterior, HTML se encuentra compuesto por Tags que se encuentran definidos entre < y > , este tipo de sintaxis cumple con la propia definición de HTML que se denomina lenguaje de marcación, esto es, cada Tag marca cuando se inicia determinada definición así como su terminación.
+
+El Tag inicial empleado en un documento HTML es precisamente <html>, dentro de este Tag son anidados los diversos Tags que componen un documento, nótese que el último elemento del fragmento es </html>, es a través del carácter "/" que se esta indicando la terminación del elemento.
+
+Seguido del elemento <html> se encuentra otro Tag que lleva por nombre <head> donde radican otros elementos que describen datos generales del documento, en este ejemplo se encuentra el elemento <title> empleado para definir el titulo del documento que será desplegado en la parte superior del "Browser", además del elemento <title> existen otros elementos que pueden ser anidados dentro del elemento <head> los cuales serán descritos en las siguientes secciones de este curso.
+
+Es dentro de los Tags <body> donde se encuentra definido, como su nombre lo indica, el cuerpo del documento HTML, anidado en este elemento se encuentran la serie de Tags HTML que llevarán a conformar la página en sí; en este fragmento son definidos los siguientes Tags: Un Titulo (<h2>) , un Comentario <!-- --> y una liga hacia un correo electrónico.
+
+
+
+DTD's ("Data Type Definitions") : Declaración y Uso.
+La declaración en la parte superior del fragmento anterior que inicia con <! DOCTYPE > no es propiamente HTML, sino una declaración SGML denominada DTD ("Data Type Definition"); SGML ("Standard Generalized Markup Language") es el lenguaje de donde proviene HTML y a través de un DTD se define la estructura que éste debe tener, en este caso, el orden de los Tags declarados en un documento HTML.
+
+La versión 4.01 de HTML define 3 posibles DTD's que pueden ser empleados al momento de diseñarse un documento : 
+
+•HTML Transitional [loose.dtd] : Define la estructura más flexible para un diseñar HTML.
+•HTML Strict [strict.dtd] : Como su nombre lo implica, este DTD contiene diversas restricciones sobre el anidamiento y declaración de sus Tags. La principal diferencia con HTML Transitional se encuentra en la prohibición de elementos de estilo en Tags y concentración en el uso de CSS ("Cascading Style Sheets"), temas que serán descritos a lo largo de este curso.
+•HTML Frameset [frameset.dtd] : Similar a HTML Transitional, sin embargo, permite la declaración de los elementos <frame> y <frameset> en un documento, tema también descrito en otra sección de este curso.
+Aunque la declaración de un DTD es un requerimiento para conformar un documento HTML apegado al estándar, hoy en día, la mayoría de los navegadores ("Browsers") del mercado se encuentran equipados para aceptar documentos aunque estos no cumplan con este pequeño requisito.
+
+De inicio puede pensarse que apegarse a un DTD es un proceso complicado, sin embargo, como regla general el despliegue final de un documento HTML puede ser una fuerte pista sobre la conformidad con un DTD. Si la interfase final resulta extraña, es muy probable que el código HTML no se encuentre apegado a ningún DTD.
+
+No obstante, para ciertos diseños puede resultar necesario verificar la validez de una estructura HTML, lo cual puede ser realizado a través de los siguientes métodos : 
+
+•HTML-Tidy : Software Open-Source utilizado para la validación de documentos HTML : http://tidy.sourceforge.net/ 
+•Servicio de Validación en-linea : El W3C ofrece una herramienta de validación en-linea para HTML/XHTML : http://validator.w3.org/ 
+•Inspección Manual : Es posible consultar directamente los DTD definidos en la especificación HTML : http://www.w3.org/TR/html4/ 
+Le intereso el diseño de una página HTML ? Observe su código fuente 
+Debido a que antes de ejecutar o desplegar el documento enviado por cualquier servidor de páginas éste es recibido en forma pura por un Navegador, es posible observar que Tags fueron utilizados para su diseño, los elementos JavaScript de su estructura y cualquier otro elemento en su forma nativa, inclusive hasta comentarios del autor de la página; lo anterior se logra de los siguientes menús en los respectivos "Browsers": 
+
+•En Netscape Navigator: Del Menú: View | Page Source .
+•En Internet Explorer: Del Menú View | Source .
+Carencias de HTML 
+A pesar de la importancia de HTML para desplegar información, su mismo nombre puede ser una pista de sus carencias : Markup Language = Lenguaje de Marcación. Al ser un lenguaje de marcación este carece de elementos dinámicos o en términos de programación : lógica de ejecución, esta lógica en un navegador es llevada acabo mediante un "Scripting Language", en este curso será explorado el uso de JavaScript el cual ya forma parte complementaria de prácticamente todo diseño en HTML.
+
+Nueva Generación HTML : XHTML 
+Hoy en día, la última versión de HTML ha evolucionado a un nuevo estándar denominado XHTML ("eXtensible Hypertext Markup Language"), esta especificación se encuentra basada en el lenguaje de marcación XML ("eXtensible Markup Language") que representa un lenguaje más simplificado y ampliamente adoptado en la industria que SGML, el padre de HTML.
+
+Aunque XHTML representa un cambio de raíces, en este caso de SGML por XML, son sólo unas pequeñas diferencias las que deben ser contempladas para diseñar un documento XHTML 1.0 partiendo de las mismas reglas de escritura que HTML 4.01, dichos cambios serán indicados conforme se ilustren todas las reglas y tags que conforman un documento HTML.
+
+Vale mencionar que XHTML 1.0 también posee tres subtipos al igual que HTML 4.01: 
+
+•XHTML Transitional : Define la estructura más flexible para un diseñar XHTML.
+•XHTML Strict : Como su nombre lo implica, este DTD contiene diversas restricciones sobre el anidamiento y declaración de sus Tags. La principal diferencia con XHTML Transitional se encuentra en la prohibición de elementos de estilo en Tags y concentración en el uso de CSS ("Cascading Style Sheets"), temas que serán descritos a lo largo de este curso.
+•XHTML Frameset : Similar a XHTML Transitional, sin embargo, permite la declaración de los elementos <frame> y <frameset> en un documento, tema también descrito en otra sección de este curso.
+La importancia de XHTML comparado con su antecesor HTML 4.01, radica en que éste último fue diseñado para utilizarse en navegadores exclusivamente, mientras XHTML pretende ser un lenguaje de marcación más generalizado para utilizarse tanto en "Browsers" así como en dispositivos inalámbricos (PDA's y teléfonos celulares). 
+
+La especificación de XHTML se encuentra en : http://www.w3.org/TR/xhtml1/ , en donde puede consultar sus respectivos DTD's, así como el proceso evolutivo de este estándar.

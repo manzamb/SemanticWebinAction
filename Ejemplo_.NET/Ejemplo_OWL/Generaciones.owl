@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://www.owl-ontologies.com/Ontology1244598154.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1244598154.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Hombre">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:ID="tieneSexo"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <Sexo rdf:ID="Masculino"/>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Class rdf:ID="Persona"/>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:ID="tieneNombre"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Mujer"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Hermano">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="tieneHermanoHermana"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+            <owl:hasValue rdf:resource="#Masculino"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Hija">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="tienePadreMadre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+            <owl:hasValue>
+              <Sexo rdf:ID="Femenino"/>
+            </owl:hasValue>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Padre">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="#Masculino"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="tieneHijoHija"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Sexo">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <Sexo rdf:about="#Masculino"/>
+          <Sexo rdf:about="#Femenino"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Esta clase es "enumerada" porque esta esta definida a partir de un listado de los individuos que la conforman (otro ejemplo serian los dias de la semana [lunes, martes, miercoles,...]). Para crear esta clase en el panel de condiciones se crea la expresion (como condicion necesaria y suficiente).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Mujer">
+    <owl:disjointWith rdf:resource="#Hombre"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+            <owl:hasValue rdf:resource="#Femenino"/>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Madre">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#tieneHijoHija"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+            <owl:hasValue rdf:resource="#Femenino"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Hermana">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="#Femenino"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="#tieneHermanoHermana"/>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Hijo">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#tienePadreMadre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+          <owl:Class rdf:about="#Persona"/>
+          <owl:Restriction>
+            <owl:hasValue rdf:resource="#Masculino"/>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneSexo"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:FunctionalProperty rdf:about="#tieneNombre"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="#Persona"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="tieneHermana">
+    <rdfs:subPropertyOf rdf:resource="#tieneHermanoHermana"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#tieneHijoHija">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="#tienePadreMadre"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="tieneHija">
+    <rdfs:subPropertyOf rdf:resource="#tieneHijoHija"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="tieneHijo">
+    <rdfs:subPropertyOf rdf:resource="#tieneHijoHija"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#tienePadreMadre">
+    <owl:inverseOf rdf:resource="#tieneHijoHija"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="tieneHermano">
+    <rdfs:subPropertyOf rdf:resource="#tieneHermanoHermana"/>
+  </owl:ObjectProperty>
+  <owl:FunctionalProperty rdf:about="#tieneNombre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="tienePadre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="#tienePadreMadre"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#tieneSexo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Sexo"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="tieneMadre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="#tienePadreMadre"/>
+  </owl:FunctionalProperty>
+  <Persona rdf:ID="LAURA"/>
+  <Madre rdf:ID="Madre_10">
+    <tieneNombre>
+      <Persona rdf:ID="ANA"/>
+    </tieneNombre>
+    <tieneHija>
+      <Persona rdf:ID="JUANA"/>
+    </tieneHija>
+  </Madre>
+  <Persona rdf:ID="JUAN"/>
+  <Hija rdf:ID="Hija_4">
+    <tieneNombre rdf:resource="#JUANA"/>
+    <tieneMadre>
+      <Persona rdf:ID="MARIA"/>
+    </tieneMadre>
+    <tienePadre>
+      <Persona rdf:ID="ALBERTO"/>
+    </tienePadre>
+  </Hija>
+  <Padre rdf:ID="Padre_3">
+    <tieneHija rdf:resource="#LAURA"/>
+    <tieneHijo>
+      <Persona rdf:ID="LUIS"/>
+    </tieneHijo>
+    <tieneNombre rdf:resource="#JUAN"/>
+  </Padre>
+  <Madre rdf:ID="Madre_4">
+    <tieneHijo rdf:resource="#JUAN"/>
+    <tieneHija>
+      <Persona rdf:ID="SOFIA"/>
+    </tieneHija>
+    <tieneNombre rdf:resource="#MARIA"/>
+  </Madre>
+  <Padre rdf:ID="Padre_1">
+    <tieneNombre rdf:resource="#ALBERTO"/>
+    <tieneHijo rdf:resource="#JUAN"/>
+    <tieneHija rdf:resource="#SOFIA"/>
+  </Padre>
+  <Persona rdf:ID="PEDRO"/>
+  <Madre rdf:ID="Madre_11">
+    <tieneHija rdf:resource="#LAURA"/>
+    <tieneNombre rdf:resource="#JUANA"/>
+  </Madre>
+  <Hijo rdf:ID="Hijo_2">
+    <tieneMadre rdf:resource="#JUANA"/>
+    <tieneNombre rdf:resource="#LUIS"/>
+    <tienePadre rdf:resource="#JUAN"/>
+  </Hijo>
+  <Hija rdf:ID="Hija_3">
+    <tienePadre rdf:resource="#ALBERTO"/>
+    <tieneNombre rdf:resource="#SOFIA"/>
+    <tieneMadre rdf:resource="#MARIA"/>
+  </Hija>
+  <Hijo rdf:ID="Hijo_1">
+    <tienePadre rdf:resource="#ALBERTO"/>
+    <tieneMadre rdf:resource="#MARIA"/>
+    <tieneNombre rdf:resource="#JUAN"/>
+  </Hijo>
+  <Hija rdf:ID="Hija_5">
+    <tieneNombre rdf:resource="#LAURA"/>
+    <tienePadre rdf:resource="#JUAN"/>
+    <tieneMadre rdf:resource="#JUANA"/>
+  </Hija>
+  <Padre rdf:ID="Padre_2">
+    <tieneNombre rdf:resource="#PEDRO"/>
+    <tieneHija rdf:resource="#JUANA"/>
+  </Padre>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

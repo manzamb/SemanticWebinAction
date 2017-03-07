@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebsiteAnotacion", "WebsiteAnotacion\", "{1A9AD11A-853D-42F8-A80D-D2CCBD218E6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebsiteAnotacion"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Trabajo\Unicauca\Asignaturas\Web Semántica\06-Ejemplos\Anotacion Curso\WebsiteAnotacion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebsiteAnotacion\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebsiteAnotacion"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Trabajo\Unicauca\Asignaturas\Web Semántica\06-Ejemplos\Anotacion Curso\WebsiteAnotacion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebsiteAnotacion\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50443"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9AD11A-853D-42F8-A80D-D2CCBD218E6C}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1A9AD11A-853D-42F8-A80D-D2CCBD218E6C}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

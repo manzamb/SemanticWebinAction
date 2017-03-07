@@ -1,0 +1,10 @@
+﻿<?xml-stylesheet type="text/xsl" href="XSLTWikipedia.xslt"?>
+<rdf:RDF
+xmlns:rdf="http://w3.org/.../22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdfDescription
+   rdf:about="http://en.wikipedia.org/wiki/Tony">
+    <dctitle>Tony</dctitle>
+    <dcpublisher>Wikipedia</dcpublisher>
+  </rdfDescription>
+</rdf:RDF>

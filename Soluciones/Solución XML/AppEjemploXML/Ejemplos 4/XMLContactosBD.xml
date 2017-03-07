@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto      </Nombre>
+    <Apellidos>Cobos Lozada        </Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800   </Numero>
+    <TipoT>1         </TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>5                   </Calle>
+    <NumeroCasa>3-45      </NumeroCasa>
+    <Ciudad>Popayán             </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>3</idcorreo>
+    <descripcion>ccobos@unicauca.ed  </descripcion>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto      </Nombre>
+    <Apellidos>Cobos Lozada        </Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789</Numero>
+    <TipoT>2         </TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>5                   </Calle>
+    <NumeroCasa>3-45      </NumeroCasa>
+    <Ciudad>Popayán             </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>3</idcorreo>
+    <descripcion>ccobos@unicauca.ed  </descripcion>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto      </Nombre>
+    <Apellidos>Cobos Lozada        </Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800   </Numero>
+    <TipoT>1         </TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>5                   </Calle>
+    <NumeroCasa>3-45      </NumeroCasa>
+    <Ciudad>Popayán             </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>4</idcorreo>
+    <descripcion>ccarlos@hotmail.com </descripcion>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto      </Nombre>
+    <Apellidos>Cobos Lozada        </Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789</Numero>
+    <TipoT>2         </TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>5                   </Calle>
+    <NumeroCasa>3-45      </NumeroCasa>
+    <Ciudad>Popayán             </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>4</idcorreo>
+    <descripcion>ccarlos@hotmail.com </descripcion>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana       </Nombre>
+    <Apellidos>Mendoza Becerra     </Apellidos>
+    <FechaNacimiento>1978-07-07T00:00:00-05:00</FechaNacimiento>
+    <Tipop>2</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567   </Numero>
+    <TipoT>1         </TipoT>
+    <idDireccion>2</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>7-45      </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>5</idcorreo>
+    <descripcion>mmendoza@uni.edu.co </descripcion>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>3</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Erwin               </Nombre>
+    <Apellidos>Meza                </Apellidos>
+    <FechaNacimiento>1976-02-02T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>4</idtelefono>
+    <Numero>3004567897</Numero>
+    <TipoT>2         </TipoT>
+    <idDireccion>3</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>4-56      </NumeroCasa>
+    <Ciudad>Cali                </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>6</idcorreo>
+    <descripcion>emezav@uni.edu.co   </descripcion>
+  </PersonasContacto>
+</NewDataSet>
