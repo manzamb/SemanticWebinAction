@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="XSLContactos.xslt"?>
 <lista>
   <contacto>
-     <nombre> Juan Espinoza </nombre>
-     <pais> México </pais>
-     <departamento> Informatica </departamento>
+    <nombre> Juan Espinoza </nombre>
+    <pais> México </pais>
+    <departamento> Informatica </departamento>
   </contacto>
 
   <contacto>

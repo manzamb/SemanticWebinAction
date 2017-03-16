@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contactos>
+  <Contacto>
+    <nombre>Juan Espinosa</nombre>
+    <pais>Mexico</pais>
+    <Departamento>Sistemas</Departamento>
+  </Contacto>
+  <Contacto>
+    <nombre>Carlos Cobos</nombre>
+    <pais>Colombia</pais>
+    <Departamento>Sistemas</Departamento>
+  </Contacto>
+  <Contacto>
+    <nombre>Juan Manuel</nombre>
+    <pais>Colombia</pais>
+    <Departamento>Informartica</Departamento>
+  </Contacto>
+</Contactos>
