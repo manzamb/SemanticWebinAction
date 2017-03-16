@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Contactos SYSTEM "DTDMyContact.dtd">
+<Contactos>
+
+  <contacto>
+    <nombre> Juan Manuel Chagüendo Benavides </nombre>
+    <pais> Colombia </pais>
+    <departamento> Sistemas </departamento>
+  </contacto>
+
+  <contacto>
+    <nombre> Cristiano Ronaldo </nombre>
+    <pais> Portugal </pais>
+    <departamento> Real Madrid C.F </departamento>
+  </contacto>
+
+  <contacto>
+    <nombre> Marck Zuckenberg </nombre>
+    <pais> EE.UU </pais>
+    <departamento> Facebook.Inc </departamento>
+  </contacto>
+ 
+  
+
+</Contactos>
