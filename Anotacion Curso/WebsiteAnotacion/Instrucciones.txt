@@ -1,9 +1,15 @@
 ﻿Instrucciones del taller 01-HTML
 Objetivo
-  Crear una página Web con HTML Básico, identificando los elementos primordiales en su construcción.
+  Crear una página Web con HTML Básico, identificando los elementos primordiales en su
+  construcción.
 
 Pasos
-1. Abrir el documento: http://univirtual.unicauca.edu.co/moodle/pluginfile.php/98582/mod_resource/content/1/Resumen%20de%20la%20web%20Semántica.pdf en una página web aparte.
-2. Crear una carpeta en el proyecto con su nombre ejemplo (../miguelnino) hacer una copia del documento 01-HTML.htm y personalizarlo con comando HTML para colocar el contenido del documento del punto 1.
-3. Como guía de los posibles comandos a utilizar referenciar este sitio: https://clasew.jimdo.com/guía-rápida-de-comandos-html/
-4. Colocar las anotaciones semánticas necesarias para establecer el autor del recurso, el nombre del recurso, la fecha de creación, etc.
+1. Abrir el documento: 
+   http://univirtual.unicauca.edu.co/moodle/pluginfile.php/98582/mod_resource/content/1/Resumen%20de%20la%20web%20Semántica.pdf 
+   en una página web aparte.
+2. Crear una carpeta en el proyecto con su nombre ejemplo (../miguelnino) hacer una copia
+   del documento 01-HTML.htm y personalizarlo con comando HTML para colocar el contenido del documento del punto 1.
+3. Como guía de los posibles comandos a utilizar referenciar este sitio:
+   https://clasew.jimdo.com/guía-rápida-de-comandos-html/
+4. Colocar las anotaciones semánticas necesarias para establecer el autor del recurso, 
+   el nombre del recurso, la fecha de creación, etc.
