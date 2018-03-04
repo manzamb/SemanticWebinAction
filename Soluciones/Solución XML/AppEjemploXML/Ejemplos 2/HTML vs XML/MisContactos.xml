@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Contactos>
+<!DOCTYPE contactos SYSTEM "DTDMisContactos.dtd">
+
+<contactos>
   <Contacto>
     <nombre>Juan Espinosa</nombre>
     <pais>Mexico</pais>
@@ -14,5 +16,7 @@
     <nombre>Juan Manuel</nombre>
     <pais>Colombia</pais>
     <Departamento>Informartica</Departamento>
+    
   </Contacto>
-</Contactos>
+  
+</contactos>
