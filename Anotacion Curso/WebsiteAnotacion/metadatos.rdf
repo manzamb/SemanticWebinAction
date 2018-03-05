@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm">
+	<dc:title>Resumen de Web Semántica</dc:title>
+	<dc:description>Este es un taller HTLM en el curso de Web Semántica</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>html</rdf:li>
+			<rdf:li>taller</rdf:li>
+			<rdf:li>Web Sem�¡ntica</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="https://sites.google.com/site/hojadevidamiguelanino/" rdfs:Literal="Miguel Angel Niño zambrano" />
+	<dc:publisher rdfs:Literal="Universidad del Cauca" />
+	<dc:license rdfs:Literal="Creative Commons" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2018-03-05</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/InteractiveResource" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>
