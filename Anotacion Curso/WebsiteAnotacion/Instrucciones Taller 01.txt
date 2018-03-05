@@ -22,3 +22,5 @@ Pasos
    puede utilizar la herramienta de creación de metadatos Dublin Core: http://www.webposible.com/utilidades/dublincore-metadata-gen/
 	a) Utilizando etiquetas meta (title, author, keywords, Subject).
 	b) Utilizando esquemas (Schema) Dublin core.
+	c) Utilizando Microformatos.
+	d) Utilizando archivos RDF.
