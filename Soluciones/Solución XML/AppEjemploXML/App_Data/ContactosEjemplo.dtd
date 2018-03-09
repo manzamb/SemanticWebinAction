@@ -1,0 +1,9 @@
+﻿<!ELEMENT Contactos (PersonaContacto)+>
+<!ELEMENT PersonaContacto (nombre,fechanacimiento?,correo+, telefono*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT correo (idcorreo, descripción, tipocorreo)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT idcorreo (#PCDATA)>
+<!ELEMENT descripción (#PCDATA)>
+<!ELEMENT tipocorreo (#PCDATA)>

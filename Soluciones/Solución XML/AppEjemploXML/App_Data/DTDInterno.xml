@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Contactos [
+  <!ELEMENT Contactos (PersonaContacto)+>
+  <!ELEMENT PersonaContacto (nombre,fechanacimiento?,correo+, telefono*)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT fechanacimiento (#PCDATA)>
+  <!ELEMENT correo (idcorreo, descripción, tipocorreo)>
+  <!ELEMENT telefono (#PCDATA)>
+  <!ELEMENT idcorreo (#PCDATA)>
+  <!ELEMENT descripción (#PCDATA)>
+  <!ELEMENT tipocorreo (#PCDATA)>
+]>
+<!--<!DOCTYPE Contactos SYSTEM "ContactosEjemplo.dtd">-->
+
+<Contactos>
+  <PersonaContacto>
+    <nombre>Miguel angel Niño</nombre>
+    <fechanacimiento>01/14/1973</fechanacimiento>
+    <correo>
+      <idcorreo>1</idcorreo>
+      <descripción>manzamb@unicauca.edu.co</descripción>
+      <tipocorreo>Trabajo</tipocorreo>
+    </correo>
+    <telefono>8352042</telefono>
+    
+  </PersonaContacto>
+
+  <PersonaContacto>
+    <nombre>Carlos Alberto Cobos</nombre>
+    <fechanacimiento>11/02/1971</fechanacimiento>
+    <correo>
+      <idcorreo>1</idcorreo>
+      <descripción>ccobos@gmail.com</descripción>
+      <tipocorreo>Personal</tipocorreo>
+    </correo>
+  </PersonaContacto>
+
+  <PersonaContacto>
+    <nombre>Lider julian bolaños</nombre>
+    <correo>
+      <idcorreo>1</idcorreo>
+      <descripción>ccobos@gmail.com</descripción>
+      <tipocorreo>Personal</tipocorreo>
+    </correo>
+  </PersonaContacto>
+</Contactos>
