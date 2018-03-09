@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Contactos>
+  <PersonaContacto>
+    <Nombre>Andrea Pabon</Nombre>
+    <Nacionalidad>Colombiana</Nacionalidad>
+    <Telefono>3155555555</Telefono>
+    <Correo>apabon@unicauca.edu.co</Correo>
+  </PersonaContacto>
+
+  <PersonaContacto>
+    <Nombre>Julian Bolaños</Nombre>
+    <Nacionalidad>Colombiano</Nacionalidad>
+    <Telefono>31469666</Telefono>
+    <Correo>jbolanos@unicauca.edu.co</Correo>
+  </PersonaContacto>  
+</Contactos>
