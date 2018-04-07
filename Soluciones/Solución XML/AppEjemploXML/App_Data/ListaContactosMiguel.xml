@@ -1,6 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE listaContactos SYSTEM "DTDContactos.dtd">
-
 <listaContactos>
   <PERSONACONTACTO idpersona="ccobos" tipoPersona="amigo">
     <nombre>Carlos Alberto</nombre>
@@ -60,4 +58,5 @@
     </direcciones>
     <relacion familiar-de="ccobos" amigo-de="emezav"/>
   </PERSONACONTACTO>
+  
 </listaContactos>

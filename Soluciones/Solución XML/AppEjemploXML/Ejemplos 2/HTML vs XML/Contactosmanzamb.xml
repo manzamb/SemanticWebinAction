@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE listaContactos SYSTEM "/App_Data/DTDContactos.dtd"> 
+<listaContactos>
+  <personacontacto identificacion="1">
+    <nombre>Miguel</nombre>
+    <fechanacimiento>14/01/1973</fechanacimiento>
+    <telefono>23456</telefono>
+    <correo>manzamb@unicauca.edu.co</correo>
+  </personacontacto>
+
+  <personacontacto identicacion="2">
+    <nombre>Carlos</nombre>
+    <fechanacimiento>10/02/1971</fechanacimiento>
+    <telefono>234561</telefono>
+    <correo>coboscarlos@gmail.com</correo>
+  </personacontacto>
+</listaContactos>
