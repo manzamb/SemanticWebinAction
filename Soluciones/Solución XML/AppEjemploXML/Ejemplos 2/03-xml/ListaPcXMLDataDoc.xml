@@ -1,0 +1,381 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>12</idtelefono>
+    <Numero>300123456           </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>12</idtelefono>
+    <Numero>300123456           </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>1</idDireccion>
+    <Calle>Cra. 3</Calle>
+    <NumeroCasa>3-45</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>2</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>7-45      </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>5</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>2</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>7-45      </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>10</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>2</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>7-45      </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>11</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>3</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Erwin  </Nombre>
+    <Apellidos>Meza Vega</Apellidos>
+    <FechaNacimiento>1976-02-02T00:00:00-05:00</FechaNacimiento>
+    <Tipop>2</Tipop>
+    <idtelefono>4</idtelefono>
+    <Numero>3004567897          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>3</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>4-56      </NumeroCasa>
+    <Ciudad>Cali                </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>6</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>3</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Erwin  </Nombre>
+    <Apellidos>Meza Vega</Apellidos>
+    <FechaNacimiento>1976-02-02T00:00:00-05:00</FechaNacimiento>
+    <Tipop>2</Tipop>
+    <idtelefono>4</idtelefono>
+    <Numero>3004567897          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>3</idDireccion>
+    <Calle>6                   </Calle>
+    <NumeroCasa>4-56      </NumeroCasa>
+    <Ciudad>Cali                </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>8</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>6</idDireccion>
+    <Calle>9A                  </Calle>
+    <NumeroCasa>26-55     </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>5</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>6</idDireccion>
+    <Calle>9A                  </Calle>
+    <NumeroCasa>26-55     </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>10</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>2</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Martha Eliana</Nombre>
+    <Apellidos>Mendoza Becerra</Apellidos>
+    <FechaNacimiento>1972-03-05T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>3</idtelefono>
+    <Numero>8334567             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>6</idDireccion>
+    <Calle>9A                  </Calle>
+    <NumeroCasa>26-55     </NumeroCasa>
+    <Ciudad>Bucaramanga         </Ciudad>
+    <Pais>Colombia            </Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>11</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>1</idtelefono>
+    <Numero>8209800             </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>2</idtelefono>
+    <Numero>3153456789          </Numero>
+    <TipoT>0</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>12</idtelefono>
+    <Numero>300123456           </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>4</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>1</idpersona>
+    <IdUsuario>1</IdUsuario>
+    <Nombre>Carlos Alberto</Nombre>
+    <Apellidos>Cobos Lozada</Apellidos>
+    <FechaNacimiento>1972-01-01T00:00:00-05:00</FechaNacimiento>
+    <Tipop>0</Tipop>
+    <idtelefono>12</idtelefono>
+    <Numero>300123456           </Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>9</idDireccion>
+    <Calle>Calle 5a</Calle>
+    <NumeroCasa>4-70</NumeroCasa>
+    <Ciudad>Popayán</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>0</TipoD>
+    <idcorreo>9</idcorreo>
+  </PersonasContacto>
+  <PersonasContacto>
+    <idpersona>8</idpersona>
+    <IdUsuario>6</IdUsuario>
+    <Nombre>Angel Nicolas</Nombre>
+    <Apellidos>Granados Mariano</Apellidos>
+    <FechaNacimiento>1945-09-07T00:00:00-05:00</FechaNacimiento>
+    <Tipop>1</Tipop>
+    <idtelefono>13</idtelefono>
+    <Numero>4456789</Numero>
+    <TipoT>1</TipoT>
+    <idDireccion>10</idDireccion>
+    <Calle>Calle 64</Calle>
+    <NumeroCasa>5-89</NumeroCasa>
+    <Ciudad>Medellín</Ciudad>
+    <Pais>Colombia</Pais>
+    <TipoD>1</TipoD>
+    <idcorreo>12</idcorreo>
+  </PersonasContacto>
+</NewDataSet>

@@ -12,9 +12,7 @@
       <body>
         <h1 align="center"> Datos Semanticos del RDF Wikipedia Ejemplo</h1>
         <hr/>
-
         <xsl:apply-templates/>
-
       </body>
     </html>
 

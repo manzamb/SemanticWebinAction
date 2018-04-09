@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE listaContactos SYSTEM "DTDContactos.dtd">
-<listaContactos>
-  <PERSONACONTACTO>
-    <nombre></nombre>
-    <apellido></apellido>
-  </PERSONACONTACTO>
-</listaContactos>

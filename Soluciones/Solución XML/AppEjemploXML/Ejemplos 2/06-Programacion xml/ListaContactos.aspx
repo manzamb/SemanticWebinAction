@@ -12,13 +12,15 @@
     <form id="form1" runat="server">
     <p>
         <asp:XmlDataSource ID="XmlDataSource1" runat="server" 
-            DataFile="~/App_Data/ListaContactosMiguel.xml"></asp:XmlDataSource>
+            DataFile="~/Ejemplos 2/03-xml/ListaContactosMiguel.xml"></asp:XmlDataSource>
     </p>
     <p>
         <asp:GridView ID="GridView1" runat="server" DataKeyNames="idpersona" 
-            DataSourceID="XmlDataSource1">
+            DataSourceID="XmlDataSource1" AutoGenerateColumns="False" EnableModelValidation="True">
             <Columns>
                 <asp:CommandField ShowSelectButton="True" />
+                <asp:BoundField DataField="idpersona" HeaderText="idpersona" SortExpression="idpersona" />
+                <asp:BoundField DataField="tipoPersona" HeaderText="tipoPersona" SortExpression="tipoPersona" />
             </Columns>
         </asp:GridView>
     </p>
@@ -26,7 +28,7 @@
     
         Este es un ejemplo para presentar todos los datos<br />
         <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" 
-            DataSourceID="XmlDataSource2" Visible="False">
+            DataSourceID="XmlDataSource2" Visible="False" EnableModelValidation="True">
             <Columns>
                 <asp:BoundField DataField="amigo-de" HeaderText="amigo-de" 
                     SortExpression="amigo-de" />
@@ -35,7 +37,7 @@
             </Columns>
         </asp:GridView>
         <asp:XmlDataSource ID="XmlDataSource2" runat="server" 
-            DataFile="~/App_Data/ListaContactosMiguel.xml" 
+            DataFile="~/Ejemplos 2/03-xml/ListaContactosMiguel.xml" 
             XPath="/listaContactos/PERSONACONTACTO/relacion"></asp:XmlDataSource>
         <br />
     

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="XSLContactos.xslt"?>
+<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>
 <lista>
   <contacto>
     <nombre> Juan Espinoza </nombre>

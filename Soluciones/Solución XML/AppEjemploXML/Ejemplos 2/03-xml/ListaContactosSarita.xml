@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--<!DOCTYPE listaContactos SYSTEM "DTDContactos.dtd">-->
+<!--<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDContactos.dtd">-->
 
 <listaContactos>
   <PERSONACONTACTO idpersona="manzamb" tipoPersona="profesional">

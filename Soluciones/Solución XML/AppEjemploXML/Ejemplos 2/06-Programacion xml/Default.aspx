@@ -16,7 +16,7 @@
                 <asp:BoundField DataField="tipoPersona" HeaderText="tipoPersona" SortExpression="tipoPersona" />
             </Columns>
         </asp:GridView>
-        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/ListaContactosMiguel.xml"></asp:XmlDataSource>
+        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/Ejemplos 2/03-xml/ListaContactosMiguel.xml"></asp:XmlDataSource>
         <br />
         <%--<asp:ListView ID="ListView1" runat="server" DataSourceID="XmlDataSource1" EnableModelValidation="True">
         </asp:ListView>--%>

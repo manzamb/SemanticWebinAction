@@ -11,8 +11,8 @@
     <div>
     
         <asp:Xml ID="Xml1" runat="server" 
-            DocumentSource="~/Ejemplos 2/HTML vs XML/Contacto.xml" 
-            TransformSource="~/Ejemplos 2/HTML vs XML/XSLContactos.xslt"></asp:Xml>
+            DocumentSource="~/Ejemplos 2/03-xml/MyContact.xml" 
+            TransformSource="~/Ejemplos 2/05-xslt/XSLContactos.xslt"></asp:Xml>
     
     </div>
     </form>

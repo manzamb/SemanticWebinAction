@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE contactos SYSTEM "DTDMisContactos.dtd">
-
-<contactos>
+<lista  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../04-xsd/MisContactos.xsd">
   <Contacto>
     <nombre>Juan Espinosa</nombre>
     <pais>Mexico</pais>
@@ -16,7 +15,6 @@
     <nombre>Juan Manuel</nombre>
     <pais>Colombia</pais>
     <Departamento>Informartica</Departamento>
-    
   </Contacto>
-  
-</contactos>
+
+</lista>
