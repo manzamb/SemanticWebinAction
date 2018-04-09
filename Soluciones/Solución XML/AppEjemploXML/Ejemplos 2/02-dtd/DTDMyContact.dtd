@@ -1,0 +1,47 @@
+﻿<!--
+Este es un ejemplo propio de un DTD, para formalizar la estructura
+de un documento HTML que contendra contactos de una Agenda Electrónica.
+
+Draft: $Date: 2009/09/30 18:17:08 $
+
+Autores:
+Miguel Angel Niño <manzamb@unicauca.edu.co>
+-->
+
+<!--                 DECLARACIONES DE TIPO DE DOCUMENTO Y MODELO DE CONTENIDO                     -->
+<!-- Este es un elemeto raiz que reune todos los contactos-->
+<!ELEMENT Contactos (contacto)+>
+
+<!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos, fechanacimiento, correos, telefonos, direcciones
+       - Es opcional (?): fechanacimiento
+       - Se compone de 1 o más subelementos: correos, direcciones
+       - Se compone de 0 o más subelementos: telefonos-->
+<!ELEMENT contacto (nombre, pais, departamento, correos+, telefonos*) >
+
+<!-- Elementos del segundo nivel del arbol-->
+<!ELEMENT correos (idcorreo, descripcion, tipoc?)>
+<!ELEMENT telefonos (idtelefono, numero)>
+<!ELEMENT direcciones (iddireccion, calle, numerocasa, ciudad?, pais?, tipod?)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de correos-->
+<!ELEMENT idcorreo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tipoc (#PCDATA)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de telefonos-->
+<!ELEMENT idtelefono (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de direcciones-->
+<!ELEMENT iddireccion (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numerocasa (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT tipod EMPTY>

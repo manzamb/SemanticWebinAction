@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDContactos.dtd">-->
+
+<listaContactos>
+  <PERSONACONTACTO idpersona="manzamb" tipoPersona="profesional">
+    <nombre>Miguel Angel</nombre>
+    <apellidos>Niño Zambrano</apellidos>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>manzamb@unicauca.edu.co</descripcion>
+      <tipoc>trabajo</tipoc>
+    </correos>
+    <direcciones>
+      <iddireccion>1</iddireccion>
+      <calle>5</calle>
+      <numerocasa>4-70</numerocasa>
+      <ciudad>Popayán</ciudad>
+      <pais>Colombia</pais>
+      <tipod  lugar="oficina"/>
+    </direcciones>
+  </PERSONACONTACTO>
+</listaContactos>
