@@ -2,5 +2,12 @@
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 /Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/storage.ide-shm
 /Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/storage.ide-wal
+=======
+/Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/db.lock
+/Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/storage.ide-wal
+/Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/storage.ide-shm
+/Soluciones/Solución XML/.vs/AppEjemploXML/v15/Server/sqlite3/storage.ide
+>>>>>>> a7ccebb48427e0f550c1e6c575a8d8df9aa28c75
