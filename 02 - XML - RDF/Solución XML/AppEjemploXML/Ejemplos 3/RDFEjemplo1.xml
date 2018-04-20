@@ -1,8 +1,10 @@
-﻿<dl class="dublincore">
+﻿<!--Ejemplo que usa etiquetas HTLM 4.0 para una lista de descripciones, con términos y su descripción-->
+<!--anotadas con metadatos Dublin Core: ver ejemplo: https://www.w3schools.com/TAGS/tag_dl.asp-->
+<dl class="dublincore">
   <dt>Autor</dt>
   <dd>
     <a class="creator"
-			href="http://www.prometeo.unicauca.edu.co/manzamb">
+			href="https://sites.google.com/site/hojadevidamiguelanino/">
       Miguel Angel Niño Zambrano
     </a>
   </dd>

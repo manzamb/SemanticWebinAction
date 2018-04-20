@@ -1,4 +1,9 @@
-﻿<rdf:RDF
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Este RDF describe las siguientes sentencias:
+<http://en.wikipedia.org/Tony_Benn> <http://purl.org/dc/elements/1.1/title> "Tony Benn" .
+<http://en.wikipedia.org/Tony_Benn> <http://purl.org/dc/elements/1.1/publisher> "Wikipedia"-->
+
+<rdf:RDF
 xmlns:rdf="http://w3.org/.../22-rdf-syntax-ns#"
 xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:Description

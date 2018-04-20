@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-stylesheet type="text/css" href="~/Ejemplos 3/StyleSheetAutor.css"?>-->
-<?xml-stylesheet type="text/xsl" href="~/Ejemplos 3/XSLTWikipedia.xsl"?>
+<?xml-stylesheet type="text/xsl" href="XSLTWikipedia.xsl "?>
+
 <rdf:RDF
-xmlns:rdf="http://w3.org/.../22-rdf-syntax-ns#"
-xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <rdfDescription
-   rdf:about="http://en.wikipedia.org/wiki/Tony">
-    <dctitle>Tony</dctitle>
-    <dcpublisher>Wikipedia</dcpublisher>
-  </rdfDescription>
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Tony_Benn">
+    <dc:title>Tony Benn</dc:title>
+    <dc:publisher>Wikipedia</dc:publisher>
+  </rdf:Description>
 </rdf:RDF>

@@ -19,14 +19,14 @@
   </xsl:template>
 
 
-  <xsl:template match="rdfDescription">
+  <xsl:template match="rdf:Description">
     <table align="center" border="5" cellpadding="5" cellspacing="5">
       <xsl:apply-templates/>
     </table>
     <br/>
   </xsl:template>
 
-  <xsl:template match="dctitle">
+  <xsl:template match="dc:title">
     <tr>
       <th> Titulo </th>
       <td align="center">
@@ -36,7 +36,7 @@
   </xsl:template>
 
 
-  <xsl:template match="dcpublisher">
+  <xsl:template match="dc:publisher">
     <tr>
       <th> Editor </th>
       <td align="center">
