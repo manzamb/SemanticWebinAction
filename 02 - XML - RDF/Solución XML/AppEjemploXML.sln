@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AppEjemploXML", "AppEjemploXML\", "{AA3069DB-B599-4AE6-B91B-18D8675940BF}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/AppEjemploXML"
 		Debug.AspNetCompiler.PhysicalPath = "AppEjemploXML\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AppEjemploXML\"
@@ -32,6 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA603F30-DFE8-4D12-B3AC-AA76C10AA6D9}
 	EndGlobalSection
 	GlobalSection(PowerDesigner) = preSolution
 		HasSWS = 1
