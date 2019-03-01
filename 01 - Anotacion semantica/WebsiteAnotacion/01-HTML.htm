@@ -2,7 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Ejemplo de HTML</title>
+    <!--Estos son ejemplos del usos de archivos externos para etiquetado semántico
+    En este caso esta usando la especificación de Dublin Core-->
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+    <!--Este es un ejemplo de uso de etiquetas "meta" de HTML-->
     <meta name="DC.title" content="Resumen de Web Semántica" />
     <meta name="DC.identifier" content="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm" />
     <meta name="DC.description" content="Este es un taller HTLM en el curso de Web Semántica" />
@@ -15,6 +19,7 @@
     <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
     <meta name="DCTERMS.created" scheme="ISO8601" content="2018-03-05" />
 
+    <!--Esta es otra forma de usar etiquetas pero utilizando un archivo RDF con Dublin Core-->
     <link rel="meta"
           type="application/rdf+xml"
           href="/metadatos.rdf" />
@@ -35,6 +40,10 @@
         <dt>Código de idioma:</dt>
         <dd class="language">es</dd>
         <dt>Autor/a:</dt>
+
+        <!--Estos dos enlaces son ejemplos del uso de microformatos para etiquetar dentro de las mismas etiquetas HTML-->
+        <!--Para el caso de los atributos rel= "co-worker" y "friend" XFN (XHTML Friends Network)
+        Para el caso de los atibutos class= "publisher", "licence", etc usa Microformatos Dublin Core-->
         <dd><a href="https://sites.google.com/site/hojadevidamiguelanino/" class="creator">Miguel Angel Niño zambrano</a></dd>
         <dd><a href="http://artemisa.unicauca.edu.co/~ccobos/" rel="friend co-worker">Carlos Cobos Lozada</a></dd>
         <dt>Editor/a:</dt>
