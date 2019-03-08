@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>-->
+<lista>
+  <contacto>
+    <nombre> Juan </nombre>
+    <apellido> Espinoza </apellido>
+    <fecha_nacimiento> 01/12/1950 </fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>espinoza@unicauca.edu.co</descripcion>
+    </correos>
+  </contacto>
+
+  <contacto>
+    <nombre> Carlos </nombre>
+    <apellido>  cobos Lozada  </apellido>
+    <fecha_nacimiento> 26/02/1970 </fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>ccobos@unicauca.edu.co</descripcion>
+    </correos>
+    <correos>
+      <idcorreo>2</idcorreo>
+      <descripcion>coboscarlos@gmail.com</descripcion>
+    </correos>
+  </contacto>
+
+  <contacto>
+    <nombre> Juan Carlos  </nombre>
+    <apellido> Casas </apellido>
+    <fecha_nacimiento> 26/02/1965 </fecha_nacimiento>
+  </contacto>
+</lista>

@@ -44,18 +44,18 @@
   </xsl:template>
 
 
-  <xsl:template match="pais">
+  <xsl:template match="apellido">
     <tr>
-      <th> Pais </th>
+      <th> Apellido </th>
       <td align="center">
         <xsl:value-of select="."/>
       </td>
     </tr>
   </xsl:template>
 
-  <xsl:template match="departamento">
+  <xsl:template match="fecha_nacimiento">
     <tr>
-      <th> Departamento </th>
+      <th> Fecha de Nacimiento </th>
       <td align="center">
         <xsl:value-of select="."/>
       </td>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE lista [
+  <!ELEMENT lista (contacto)+>
+  <!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos
+       - Es opcional (?): fecha_nacimiento
+       - Se compone de 1 o más subelementos: se usa +
+       - Se compone de 0 o más subelementos: correos-->
+  <!ELEMENT contacto (nombre, apellidos, fecha_nacimiento?, correos*) >
+  <!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT fecha_nacimiento (#PCDATA)>
+  <!-- Elementos del segundo nivel del arbol-->
+  <!ELEMENT correos (idcorreo, descripcion)>
+  <!ELEMENT idcorreo (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+]>
+
+<!--<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>-->
+<lista>
+  <contacto>
+    <nombre> Juan </nombre>
+    <apellidos> Espinoza </apellidos>
+    <fecha_nacimiento> 01/12/1950 </fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>espinoza@unicauca.edu.co</descripcion>
+    </correos>
+  </contacto>
+
+  <contacto>
+    <nombre> Carlos </nombre>
+    <apellidos>  cobos Lozada  </apellidos>
+    <fecha_nacimiento> 26/02/1970 </fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>ccobos@unicauca.edu.co</descripcion>
+    </correos>
+    <correos>
+      <idcorreo>2</idcorreo>
+      <descripcion>coboscarlos@gmail.com</descripcion>
+    </correos>
+  </contacto>
+
+  <contacto>
+    <nombre> Juan Carlos  </nombre>
+    <apellidos> Casas </apellidos>
+    <fecha_nacimiento> 26/02/1965 </fecha_nacimiento>
+  </contacto>
+
+  <contacto>
+    <nombre>Diego</nombre>
+    <apellidos>López</apellidos>
+  </contacto>
+</lista>

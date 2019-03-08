@@ -1,0 +1,16 @@
+﻿
+<!ELEMENT lista (contacto)+>
+<!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos
+       - Es opcional (?): fecha_nacimiento
+       - Se compone de 1 o más subelementos: se usa +
+       - Se compone de 0 o más subelementos: correos-->
+<!ELEMENT contacto (nombre, apellidos, fecha_nacimiento?, correos*) >
+<!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!-- Elementos del segundo nivel del arbol-->
+<!ELEMENT correos (idcorreo, descripcion)>
+<!ELEMENT idcorreo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

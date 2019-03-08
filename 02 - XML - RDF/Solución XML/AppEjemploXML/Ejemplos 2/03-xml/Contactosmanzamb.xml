@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDContactos.dtd"> 
+<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDlista.dtd"> 
+
 <listaContactos>
   <personacontacto identificacion="1">
     <nombre>Miguel</nombre>
@@ -14,4 +15,6 @@
     <telefono>234561</telefono>
     <correo>coboscarlos@gmail.com</correo>
   </personacontacto>
+
+
 </listaContactos>
