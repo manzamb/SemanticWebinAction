@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="lista">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="contacto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="apellidos" type="xs:string" />
+              <xs:element minOccurs="0" name="fecha_nacimiento" type="xs:date" />
+              <xs:element maxOccurs="unbounded" name="correos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="idcorreo" type="xs:unsignedByte" />
+                    <xs:element name="descripcion_correo" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="descripción" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

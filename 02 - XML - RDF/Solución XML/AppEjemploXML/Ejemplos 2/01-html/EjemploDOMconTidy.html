@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Tomado de: http://www.elholgazan.com/2007/07/ejemplo-de-uso-de-dom.html ¡-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+    <title>Ejemplo de DOM</title>
+    <style type="text/css">
+        /*<![CDATA[*/
+        p.red {
+            COLOR: red
+        }
+
+        p.blue {
+            COLOR: blue
+        }
+        /*]]>*/
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+  function modificarEstructura() {
+  var paraArray = document.getElementsByTagName("p");
+  paraArray[0].firstChild.nodeValue = "Parrafo Uno";
+  paraArray[1].firstChild.nodeValue = "Parrafo Dos";
+  paraArray[2].firstChild.nodeValue = "Parrafo Tres";
+  var headline = document.getElementsByTagName("h1");
+  headline[0].removeChild(headline[0].firstChild);
+  var underline = document.createElement("u");
+  underline.appendChild(document.createTextNode("Nueva cabecera!"));
+  headline[0].appendChild(underline);
+
+  var thirdPara = document.getElementById("tercero");
+  thirdPara.setAttribute("class", "blue");
+
+  paraArray[0].style.fontWeight = "bold";
+  }
+  //]]>
+    </script>
+</head>
+
+<body>
+    <h1>Cabecera!</h1>
+
+    <p class="red">Primero</p>
+
+    <p>Segundo</p>
+
+    <p id="tercero">Tercero</p><a href="JavaScript:modificarEstructura();">
+        modificar
+        estructura
+    </a>
+
+    <p>
+        DOM es esencialmente una interfaz de programaci&oacute;n de aplicaciones que
+        proporciona un conjunto est&aacute;ndar de objetos para representar documentos HTML y
+        XML, un modelo est&aacute;ndar sobre c&oacute;mo pueden combinarse dichos objetos, y
+        una interfaz est&aacute;ndar para acceder a ellos y manipularlos.
+    </p>
+</body>
+</html>

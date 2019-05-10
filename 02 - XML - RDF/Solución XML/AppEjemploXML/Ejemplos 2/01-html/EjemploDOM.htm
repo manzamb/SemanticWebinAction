@@ -12,8 +12,8 @@ p.blue {COLOR: blue}
  function modificarEstructura() {
   var paraArray = document.getElementsByTagName("p");
   paraArray[0].firstChild.nodeValue = "Parrafo Uno";
-  paraArray[0].nextSibling.firstChild.nodeValue = "Parrafo Dos";
-  paraArray[0].nextSibling.nextSibling.firstChild.nodeValue = "Parrafo Tres";
+  paraArray[1].firstChild.nodeValue = "Parrafo Dos";
+  paraArray[2].firstChild.nodeValue = "Parrafo Tres";
   var headline = document.getElementsByTagName("h1");
   headline[0].removeChild(headline[0].firstChild);
   var underline = document.createElement("u");

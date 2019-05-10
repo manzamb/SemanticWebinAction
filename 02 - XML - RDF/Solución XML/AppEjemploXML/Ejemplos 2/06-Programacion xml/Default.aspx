@@ -20,6 +20,9 @@
         <br />
         <%--<asp:ListView ID="ListView1" runat="server" DataSourceID="XmlDataSource1" EnableModelValidation="True">
         </asp:ListView>--%>
+        <asp:TextBox ID="TextBox1" runat="server" Height="149px" Width="855px"></asp:TextBox>
+        <br />
+        <asp:Button ID="btnLeerXML" runat="server" OnClick="btnLeerXML_Click" Text="Leer XML" />
     
     </div>
     </form>

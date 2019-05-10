@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<!DOCTYPE lista SYSTEM "../02-dtd/DTDmilista.dtd">-->
+
+<lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../04-xsd/miejemploXML.xsd">
+  
+  <contacto>
+    <nombre>Juan</nombre>
+    <apellidos>Espinoza</apellidos>
+    <fecha_nacimiento>1950-12-01</fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion_correo>espinoza@unicauca.edu.co</descripcion_correo>
+    </correos>
+    <descripción>El tio favorito</descripción>
+  </contacto>
+  
+  <contacto>
+    <nombre>Carlos</nombre>
+    <apellidos>Cobos</apellidos>
+    <fecha_nacimiento>1970-02-26</fecha_nacimiento>
+    <correos>
+      <idcorreo>2</idcorreo>
+      <descripcion_correo>ccobos@unicauca.edu.co</descripcion_correo>
+    </correos>
+    <correos>
+      <idcorreo>3</idcorreo>
+      <descripcion_correo>coboscarlos@gmail.com</descripcion_correo>
+    </correos>
+    <descripción></descripción>    
+  </contacto>
+  
+  <contacto>
+    <nombre>Juan Carlos</nombre>
+    <apellidos>Casas</apellidos>
+    <fecha_nacimiento>26/02/1965</fecha_nacimiento>
+    <correos>
+      <idcorreo>4</idcorreo>
+      <descripcion_correo>ccasas@unicauca.edu.co</descripcion_correo>
+    </correos>
+    <descripción></descripción>    
+  </contacto>
+
+  <contacto>
+    <nombre>Ana MAria</nombre>
+    <apellidos>Muñoz</apellidos>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion_correo>anamv@unicauca.edu.co</descripcion_correo>
+    </correos>
+  </contacto>
+</lista>

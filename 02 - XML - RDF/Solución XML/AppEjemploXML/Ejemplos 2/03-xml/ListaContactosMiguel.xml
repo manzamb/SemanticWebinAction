@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<listaContactos>
+
+<listaContactos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../04-xsd/ListaContactosMiguel.xsd">
+
   <PERSONACONTACTO idpersona="ccobos" tipoPersona="amigo">
     <nombre>Carlos Alberto</nombre>
     <apellidos>Cobos Lozada</apellidos>
