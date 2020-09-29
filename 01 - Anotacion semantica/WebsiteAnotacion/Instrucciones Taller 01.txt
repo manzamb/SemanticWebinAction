@@ -22,7 +22,7 @@ Pasos
 4. Colocar las anotaciones semánticas necesarias para establecer varias propiedades del recurso. Para ésto
    puede utilizar la herramienta de creación de metadatos Dublin Core: http://www.webposible.com/utilidades/dublincore-metadata-gen/.
    Diligneciar en la herramienta las secciones siguientes: Datos Descriptivos del Recurso, Datos Informativos del Recurso, 
-   Datos adicionales (Fecha de creaci{on y el tipo de recurso). Crear un ejemplo de metadatos para cada tipo generado:
+   Datos adicionales (Fecha de creación y el tipo de recurso). Crear un ejemplo de metadatos para cada tipo generado:
 	a) Utilizando etiquetas meta (title, author, keywords, Subject).
 	b) Utilizando esquemas (Schema) Dublin core.
 	c) Utilizando Microformatos.
