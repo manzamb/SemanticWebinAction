@@ -15,12 +15,20 @@ Pasos
    http://univirtual.unicauca.edu.co/moodle/pluginfile.php/98582/mod_resource/content/1/Resumen%20de%20la%20web%20Semántica.pdf 
    en una página web aparte.
 2. Crear una carpeta en el proyecto con su nombre ejemplo (../miguelnino) hacer una copia
-   del documento 01-HTML.htm y personalizarlo con comando HTML para colocar el contenido del documento del punto 1.
+   del documento 01-HTML.htm y personalizarlo con comandos HTML para colocar el contenido del documento del punto 1. 
+   Sólo de la parte del socumento que dice Sesion 1 y 2
 3. Como guía de los posibles comandos a utilizar referenciar este sitio:
    https://clasew.jimdo.com/guía-rápida-de-comandos-html/
 4. Colocar las anotaciones semánticas necesarias para establecer varias propiedades del recurso. Para ésto
-   puede utilizar la herramienta de creación de metadatos Dublin Core: http://www.webposible.com/utilidades/dublincore-metadata-gen/
+   puede utilizar la herramienta de creación de metadatos Dublin Core: http://www.webposible.com/utilidades/dublincore-metadata-gen/.
+   Diligneciar en la herramienta las secciones siguientes: Datos Descriptivos del Recurso, Datos Informativos del Recurso, 
+   Datos adicionales (Fecha de creaci{on y el tipo de recurso). Crear un ejemplo de metadatos para cada tipo generado:
 	a) Utilizando etiquetas meta (title, author, keywords, Subject).
 	b) Utilizando esquemas (Schema) Dublin core.
 	c) Utilizando Microformatos.
 	d) Utilizando archivos RDF.
+5. Para analizar los metadatos se pueden utilizar visores online o descargar utilidades:
+	a) Utilizar https://www.metadata2go.com/, para cargar los archivos creados y analizar sus metadatos. Analizar varios tipos de archivo.
+	b) Ejemplos de utilidades de escritorio (solo uinformativo):
+		- ExifTool es la más reconocida (https://exiftool.org/)
+		- La aplicación FOCA (https://ciberpatrulla.com/foca-metadatos/) para extraer metadatos de las páginas recien creadas
