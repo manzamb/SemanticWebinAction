@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ejemplo Microformatos Dublin Core de HTML</title>
+    <!--Estos son ejemplos del uso de archivos externos para etiquetado semántico
+    En este caso esta usando la especificación de Dublin Core-->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+    <!--Este es un ejemplo de uso de etiquetas "meta" de HTML-->
+    <meta name="DC.title" content="Resumen de Web Semántica" />
+    <meta name="DC.identifier" content="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm" />
+    <meta name="DC.description" content="Este es un taller HTLM en el curso de Web Semántica" />
+    <meta name="DC.subject" content="html, taller, Web Semántica" />
+    <meta name="DC.language" scheme="ISO639-1" content="es" />
+    <meta name="DC.creator" content="https://sites.google.com/site/hojadevidamiguelanino/" />
+    <meta name="DC.publisher" content="Universidad del Cauca" />
+    <meta name="DC.license" content="Creative Commons" />
+    <meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+    <meta name="DCTERMS.created" scheme="ISO8601" content="2018-03-05" />
+
+    <!--Esta es otra forma de usar etiquetas pero utilizando un archivo RDF con Dublin Core-->
+    <link rel="meta"
+          type="application/rdf+xml"
+          href="/metadatos.rdf" />
+</head>
+<body>
+    <h1>Esta es una pagina de ejemplo del uso de Microformatos en HTML</h1>
+    <p style="font-family: 'Times New Roman', Times, serif">En este ejemplo se esta mostrando como dar formato al texto.</p>
+
+    <dl class="dublincore">
+        <dt>Título:</dt>
+        <dd class="title">Resumen de Web Semántica</dd>
+        <dt>Dirección:</dt>
+        <dd><a href="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm" class="identifier">https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm</a></dd>
+        <dt>Descripción:</dt>
+        <dd class="description">Este es un taller HTLM en el curso de Web Semántica</dd>
+        <dt>Palabras clave:</dt>
+        <dd class="subject">html, taller, Web Semántica</dd>
+        <dt>Código de idioma:</dt>
+        <dd class="language">es</dd>
+        <dt>Autor/a:</dt>
+
+        <!--Estos dos enlaces son ejemplos del uso de microformatos para etiquetar dentro de las mismas etiquetas HTML-->
+        <!--Para el caso de los atributos rel= "co-worker" y "friend" XFN (XHTML Friends Network)
+        Para el caso de los atibutos class= "publisher", "licence", etc usa Microformatos Dublin Core-->
+        <dd><a href="https://sites.google.com/site/hojadevidamiguelanino/" class="creator">Miguel Angel Niño zambrano</a></dd>
+        <dd><a href="http://artemisa.unicauca.edu.co/~ccobos/" rel="friend co-worker">Carlos Cobos Lozada</a></dd>
+        <dt>Editor/a:</dt>
+        <dd class="publisher">Universidad del Cauca</dd>
+        <dt>Derechos:</dt>
+        <dd class="license">Creative Commons</dd>
+        <dt>Fecha de creación:</dt>
+        <dd class="created">2018-03-05</dd>
+    </dl>
+</body>
+</html>
