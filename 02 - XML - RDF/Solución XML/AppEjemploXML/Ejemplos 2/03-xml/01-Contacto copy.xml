@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE listaContactos [
+<!ELEMENT listaContactos (contacto)+>
+<!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos
+       - Es opcional (?): fecha_nacimiento
+       - Se compone de 1 o más subelementos: se usa +
+       - Se compone de 0 o más subelementos: correos-->
+<!ELEMENT contacto (nombre, apellidos, fecha_nacimiento?, correos*) >
+<!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!-- Elementos del segundo nivel del arbol-->
+<!ELEMENT correos (idcorreo, correo)>
+<!ELEMENT idcorreo (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+]>
+
+
+<listaContactos>
+  <contacto>
+    <nombre>Carlos</nombre>
+    <apellidos> Diaz Santacruz </apellidos>
+    <fecha_nacimiento>29/10/1977</fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <correo>andres.diaz@unicauca.edu.co</correo>
+    </correos>
+    <correos>  
+      <idcorreo>2</idcorreo>
+      <correo>caandisa@hotmail.com</correo>
+    </correos>
+  </contacto>
+  
+  <contacto>
+    <nombre>Isabel</nombre>
+    <nombre>alias isa</nombre>
+    <apellidos> Mejia</apellidos>
+    <fecha_nacimiento>29/10/1977</fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <correo>imejia@unicauca.edu.co</correo>
+    </correos>
+    <correos>
+      <idcorreo>2</idcorreo>
+      <correo>imejia@hotmail.com</correo>
+    </correos>
+  </contacto>
+
+</listaContactos>
