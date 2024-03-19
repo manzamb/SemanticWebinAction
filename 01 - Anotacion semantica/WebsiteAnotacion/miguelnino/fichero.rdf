@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="http://localhost:50443/miguelnino/01-HTML.htm">
+	<dc:title>Resúmenes de Web Semántica</dc:title>
+	<dc:description>ESTABLECE LOS PRINCIPALES CONCEPTOS DE LA WEB SEMÁNTICA</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>WEB</rdf:li>
+			<rdf:li>semantica</rdf:li>
+			<rdf:li>resumen</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="https://sites.google.com/site/hojadevidamiguelanino/" rdfs:Literal="Miguel Niño" />
+	<dc:contributor dc:source="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjo7OfH8vLyAhWVGVkFHdwbCnAQFnoECAcQAQ&url=http%3A%2F%2Fwww.unicauca.edu.co%2Fsistemas%2Fdocentes%2Fsiler-amador-donado-0&usg=AOvVaw2zZDsSWrf6l6lpM7H0KZjU" rdfs:Literal="Siler" />
+	<dc:publisher rdfs:Literal="Universidad del Cauca" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>

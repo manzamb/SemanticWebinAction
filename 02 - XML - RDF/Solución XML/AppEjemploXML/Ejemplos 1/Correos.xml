@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE Listacorreos SYSTEM "modelocorreos.dtd">
+
+
+<Listacorreos>
+  <correo idcorreo="4">
+    <de></de>
+    <para></para>
+    <fecha></fecha>
+  </correo>
+</Listacorreos>

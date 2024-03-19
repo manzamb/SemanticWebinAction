@@ -16,7 +16,7 @@ Pasos
    en una página web aparte.
 2. Crear una carpeta en el proyecto con su nombre ejemplo (../miguelnino) hacer una copia
    del documento 01-HTML.htm y personalizarlo con comandos HTML para colocar el contenido del documento del punto 1. 
-   Sólo de la parte del socumento que dice Sesion 1 y 2
+   Sólo de la parte del documento que dice Sesion 1 y 2
 3. Como guía de los posibles comandos a utilizar referenciar este sitio:
    https://clasew.jimdo.com/guía-rápida-de-comandos-html/
 4. Colocar las anotaciones semánticas necesarias para establecer varias propiedades del recurso. Para ésto

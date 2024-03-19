@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<congruencia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../04-xsd/deuda.xsd">
+  
+  <causa>
+    <id_causa>Causa-01</id_causa>
+    <nombre_causa>Deuda Social</nombre_causa>
+    <descripcion_causa>se suele definir como la comparación entre el esfuerzo de coordinación requerido en un determinado proyecto de desarrollo de software con la coordinación que realmente se está llevando a cabo.</descripcion_causa>
+    <lista_efectos>
+      <efecto>
+        <id_efecto>Efecto-1</id_efecto>
+        <descripcion_efecto>Confianza</descripcion_efecto>  
+      </efecto>
+      <efecto>
+        <id_efecto>Efecto-2</id_efecto>
+        <descripcion_efecto>Desperdicio de recursos</descripcion_efecto>
+      </efecto>
+      <efecto>
+        <id_efecto>Efecto-3</id_efecto>
+      <descripcion_efecto>Retraso del equipo</descripcion_efecto>
+      </efecto>
+      <efecto>
+        <id_efecto>Efecto-4</id_efecto>
+        <descripcion_efecto>Falta de comunicación</descripcion_efecto>
+      </efecto>
+    </lista_efectos>
+    <lista_consec>
+      <consecuencia>
+        <id_consec>Consecuencia-1</id_consec>
+      <descripcion_consec>Incumplimiento en la entrega del proyecto</descripcion_consec>
+      </consecuencia>
+      <consecuencia>
+        <id_consec>Consecuencia-2</id_consec>
+      <descripcion_consec>Problemas en el código</descripcion_consec>
+      </consecuencia>
+      <consecuencia>
+        <id_consec>Consecuencia-3</id_consec>
+      <descripcion_consec>Alta rotación de empleados</descripcion_consec>
+      </consecuencia>
+    </lista_consec>
+  </causa>
+  <!--<causa>
+    <id_causa>Causa-02</id_causa>
+    <nombre_causa>Silo Organizacional</nombre_causa>
+    <descripcion_causa>Los silos organizacionales son situaciones internas que provocan la división dentro de los departamentos en las empresas,lo que genera que las áreas no tengan intercambio de ninguna índole entre sí.</descripcion_causa>
+    <lista_efectos>
+      <id_efecto>Efecto-1</id_efecto>
+      <descripcion_efecto>Alto desacoplamiento entre tareas</descripcion_efecto>
+      <id_efecto>Efecto-2</id_efecto>
+      <descripcion_efecto>Cambios de tareas</descripcion_efecto>
+      <id_efecto>Efecto-3</id_efecto>
+      <descripcion_efecto>Información poco accesible</descripcion_efecto>
+      <id_efecto>Efecto-4</id_efecto>
+      <descripcion_efecto>Dificultad para adaptarse al cambio</descripcion_efecto>
+      <id_efecto>Efecto-5</id_efecto>
+      <descripcion_efecto>No existe alineación entre el equipo</descripcion_efecto>
+    </lista_efectos>
+    <lista_consec>
+      <id_consec>Consecuencia-1</id_consec>
+      <descripcion_consec>Dificultad en el crecimiento de la empresa</descripcion_consec>
+      <id_consec>Consecuencia-2</id_consec>
+      <descripcion_consec>Mala reacción ante las necesidades de los clientes</descripcion_consec>
+      <id_consec>Consecuencia-3</id_consec>
+      <descripcion_consec>Falta de orientacion a los nuevos empleados</descripcion_consec>
+      <id_consec>Consecuencia-3</id_consec>
+      <descripcion_consec>Dificultad para acceder a la información y genera desmotivación en los empleados</descripcion_consec>
+    </lista_consec>
+  </causa>
+  <causa>
+    <id_causa>Causa-03</id_causa>
+    <nombre_causa>Sindrome de la Nube Negra</nombre_causa>
+    <descripcion_causa>Se refiere directamente a exposición a estrés prolongado.</descripcion_causa>
+    <lista_efectos>
+      <id_efecto>Efecto-1</id_efecto>
+      <descripcion_efecto>Toma de decisiones por sus propias manos</descripcion_efecto>
+      <id_efecto>Efecto-2</id_efecto>
+      <descripcion_efecto>Egoísmo al compartir conocimiento</descripcion_efecto>
+      <id_efecto>Efecto-3</id_efecto>
+      <descripcion_efecto>Falta de comunicación y falta de confianza</descripcion_efecto>
+      <id_efecto>Efecto-4</id_efecto>
+      <descripcion_efecto>No reconocen la importancia de compartir conocimiento</descripcion_efecto>
+      <id_efecto>Efecto-5</id_efecto>
+      <descripcion_efecto>Desalineación de la cultura organizacional</descripcion_efecto>
+    </lista_efectos>
+    <lista_consec>
+      <id_consec>Consecuencia-1</id_consec>
+      <descripcion_consec>Altos gastos</descripcion_consec>
+      <id_consec>Consecuencia-2</id_consec>
+      <descripcion_consec>Falta de cooperación, comunicacion que conduce a errores</descripcion_consec>
+      <id_consec>Consecuencia-3</id_consec>
+      <descripcion_consec>Afecta el crecimiento de la empresa</descripcion_consec>
+      <id_consec>Consecuencia-4</id_consec>
+      <descripcion_consec>Alto estres en los empleados</descripcion_consec>
+    </lista_consec>
+  </causa>-->
+</congruencia>

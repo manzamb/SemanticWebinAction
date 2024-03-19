@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE lista SYSTEM "../02-dtd/DTDlista.dtd">
-<!--<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>-->
+<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>
 <lista>
   <contacto>
     <nombre> Juan </nombre>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="congruencia">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element ref="causa" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="causa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id_causa" />
+        <xs:element ref="nombre_causa" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="descripcion_causa" />
+        <xs:element ref="lista_efectos" />
+        <xs:element ref="lista_consec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id_causa" type="xs:string" />
+  <xs:element name="nombre_causa" type="xs:string" />
+  <xs:element name="descripcion_causa" type="xs:string" />
+  <xs:element name="lista_efectos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="efecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="efecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id_efecto" />
+        <xs:element ref="descripcion_efecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id_efecto" type="xs:string" />
+  <xs:element name="descripcion_efecto" type="xs:string" />
+  <xs:element name="lista_consec">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="consecuencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="consecuencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id_consec" />
+        <xs:element ref="descripcion_consec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id_consec" type="xs:string" />
+  <xs:element name="descripcion_consec" type="xs:string" />
+</xs:schema>

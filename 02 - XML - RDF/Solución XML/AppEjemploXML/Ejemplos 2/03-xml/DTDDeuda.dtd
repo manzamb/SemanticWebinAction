@@ -1,0 +1,29 @@
+<!ELEMENT  congruencia (causa)+>
+<!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre causa, descripcion causa
+       - Es opcional (?): idcausa
+       - Se compone de 1 o más subelementos: se usa +
+       - Se compone de 0 o más subelementos: se usa *-->
+
+<!ELEMENT causa (id_causa,nombre_causa,descripcion_causa?, lista_efectos, lista_consec) >
+<!-- Estableciendo los tipos de datos de los elementos hoja de causa-->
+<!ELEMENT id_causa (#PCDATA)>
+<!ELEMENT nombre_causa (#PCDATA)>
+<!ELEMENT descripcion_causa (#PCDATA)>
+
+<!-- Elementos del segundo nivel del arbol. Estableciendo los tipos de datos de los elementos hoja listaefectos-->
+<!ELEMENT lista_efectos (efecto*)>
+<!ELEMENT efecto (id_efecto, descripcion_efecto)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de lista listaefectos-->
+<!ELEMENT id_efecto (#PCDATA)>
+<!ELEMENT descripcion_efecto (#PCDATA)>
+
+<!-- Elementos del tercer nivel del arbol. Estableciendo los tipos de datos de los elementos hoja lista consecuencias-->
+<!ELEMENT lista_consec (consecuencia*)>
+<!ELEMENT consecuencia (id_consec, descripcion_consec)>
+
+<!-- Estableciendo los tipos de datos de los elementos hoja de lista lista consecuencias-->
+<!ELEMENT id_consec (#PCDATA)>
+<!ELEMENT descripcion_consec (#PCDATA)>
+

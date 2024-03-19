@@ -10,4 +10,8 @@ Partial Class Ejemplos_2_Consumo_xml_ListaContactos
         XmlDataSource2.XPath = String.Format("/listaContactos/PERSONACONTACTO[@idpersona='{0}']/relacion", idpersona)
         GridView2.Visible = True
     End Sub
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    End Sub
 End Class

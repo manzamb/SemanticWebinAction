@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="objetoIoT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="gateway">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="propiedades">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string" />
+                    <xs:element name="modelo" type="xs:string" />
+                    <xs:element name="fabricante" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="recursos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="recursoIoT">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="tipo" type="xs:string" />
+                          <xs:element name="senal" type="xs:string" />
+                          <xs:element name="voltaje">
+                            <xs:complexType>
+                              <xs:attribute name="rangoinicial" type="xs:unsignedByte" use="required" />
+                              <xs:attribute name="rangofinal" type="xs:unsignedByte" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
