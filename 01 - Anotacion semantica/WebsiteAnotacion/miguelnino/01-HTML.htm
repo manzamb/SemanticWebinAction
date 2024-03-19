@@ -2,34 +2,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Ejemplo Microformatos Dublin Core de HTML</title>
-
-    <!--Estos son ejemplos del uso de etiquetas meta de la especificación XHTML-->
-    <meta name="title" content="Resúmenes de Web Semántica" />
-    <meta name="author" content="http://localhost:50443/miguelnino/01-HTML.htm" />
-    <meta name="keywords" content="ESTABLECE LOS PRINCIPALES CONCEPTOS DE LA WEB SEMÁNTICA" />
-    <meta name="subject" content="WEB, semantica, resumen" />
-
-
-
     <!--Estos son ejemplos del uso de archivos externos para etiquetado semántico
     En este caso esta usando la especificación de Dublin Core-->
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 
     <!--Este es un ejemplo de uso de etiquetas "meta" de HTML-->
-    <meta name="DC.title" content="Resúmenes de Web Semántica" />
-    <meta name="DC.identifier" content="http://localhost:50443/miguelnino/01-HTML.htm" />
-    <meta name="DC.description" content="ESTABLECE LOS PRINCIPALES CONCEPTOS DE LA WEB SEMÁNTICA" />
-    <meta name="DC.subject" content="WEB, semantica, resumen" />
+    <meta name="DC.title" content="Resumen de Web Semántica" />
+    <meta name="DC.identifier" content="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm" />
+    <meta name="DC.description" content="Este es un taller HTLM en el curso de Web Semántica" />
+    <meta name="DC.subject" content="html, taller, Web Semántica" />
     <meta name="DC.language" scheme="ISO639-1" content="es" />
     <meta name="DC.creator" content="https://sites.google.com/site/hojadevidamiguelanino/" />
-    <meta name="DC.contributor" content="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjo7OfH8vLyAhWVGVkFHdwbCnAQFnoECAcQAQ&url=http%3A%2F%2Fwww.unicauca.edu.co%2Fsistemas%2Fdocentes%2Fsiler-amador-donado-0&usg=AOvVaw2zZDsSWrf6l6lpM7H0KZjU" />
     <meta name="DC.publisher" content="Universidad del Cauca" />
-
+    <meta name="DC.license" content="Creative Commons" />
+    <meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/InteractiveResource" />
+    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+    <meta name="DCTERMS.created" scheme="ISO8601" content="2018-03-05" />
 
     <!--Esta es otra forma de usar etiquetas pero utilizando un archivo RDF con Dublin Core-->
     <link rel="meta"
           type="application/rdf+xml"
-          href="/miguelnino/fichero.rdf" />
+          href="/metadatos.rdf" />
 </head>
 <body>
     <h1>Esta es una pagina de ejemplo del uso de Microformatos en HTML</h1>
@@ -37,72 +30,28 @@
 
     <dl class="dublincore">
         <dt>Título:</dt>
-        <dd class="title">Resúmenes de Web Semántica</dd>
+        <dd class="title">Resumen de Web Semántica</dd>
         <dt>Dirección:</dt>
-        <dd><a href="http://localhost:50443/miguelnino/01-HTML.htm" class="identifier">http://localhost:50443/miguelnino/01-HTML.htm</a></dd>
+        <dd><a href="https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm" class="identifier">https://github.com/manzamb/SemanticWebinAction/blob/master/Anotacion%20Curso/WebsiteAnotacion/01-HTML.htm</a></dd>
         <dt>Descripción:</dt>
-        <dd class="description">ESTABLECE LOS PRINCIPALES CONCEPTOS DE LA WEB SEMÁNTICA</dd>
+        <dd class="description">Este es un taller HTLM en el curso de Web Semántica</dd>
         <dt>Palabras clave:</dt>
-        <dd class="subject">WEB, semantica, resumen</dd>
+        <dd class="subject">html, taller, Web Semántica</dd>
         <dt>Código de idioma:</dt>
         <dd class="language">es</dd>
         <dt>Autor/a:</dt>
-        <dd><a href="https://sites.google.com/site/hojadevidamiguelanino/" class="creator">Miguel Niño</a></dd>
-        <dt>Colaborador/a:</dt>
-        <dd><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjo7OfH8vLyAhWVGVkFHdwbCnAQFnoECAcQAQ&url=http%3A%2F%2Fwww.unicauca.edu.co%2Fsistemas%2Fdocentes%2Fsiler-amador-donado-0&usg=AOvVaw2zZDsSWrf6l6lpM7H0KZjU" class="contributor">Siler</a></dd>
+
+        <!--Estos dos enlaces son ejemplos del uso de microformatos para etiquetar dentro de las mismas etiquetas HTML-->
+        <!--Para el caso de los atributos rel= "co-worker" y "friend" XFN (XHTML Friends Network)
+        Para el caso de los atibutos class= "publisher", "licence", etc usa Microformatos Dublin Core-->
+        <dd><a href="https://sites.google.com/site/hojadevidamiguelanino/" class="creator">Miguel Angel Niño zambrano</a></dd>
+        <dd><a href="http://artemisa.unicauca.edu.co/~ccobos/" rel="friend co-worker">Carlos Cobos Lozada</a></dd>
         <dt>Editor/a:</dt>
         <dd class="publisher">Universidad del Cauca</dd>
+        <dt>Derechos:</dt>
+        <dd class="license">Creative Commons</dd>
+        <dt>Fecha de creación:</dt>
+        <dd class="created">2018-03-05</dd>
     </dl>
-
-    <h1>Apuntes de la web Semántica</h1>
-    <h2>Sesión 1 y 2</h2>
-    <br />
-    <h3>La Web Actual</h3>
-    - Web Actual
-    <ul>
-        <li>Web 1.0 Web de enlaces a recursos (páginas web, archivos)</li>
-        <li>Web 2.0 implementa servicios (redes sociales, blogs, wikis, imágenes, videos, etc.)</li>
-    </ul>
-   
-    o Web Sintáctica y no Semántica para las máquinas.
-    - Problemas de la Web actual
-    o Heterogeneidad, Masiva, cambio rápido, hecha para los humanos.
-    - ¿Cómo podemos empoderar a una aplicación para que consuma y relacione datos en la
-    Web?
-    o Anotación Semántica
-    o Lenguaje estándar entre máquinas que incorpore el significado de los recursos que
-    gestiona.
-    o Mecanismos y técnicas formales de razonamiento de la información
-    Ejemplo: Hacer el Ejemplo de mi información en la web actual con HTML.
-    Introducción a la Web Semántica
-    - Diferentes tipos de datos y recursos, pero sin significado para las máquinas
-    - Una máquina necesita un lenguaje de especificación formal de los recursos Web y sus
-    relaciones. Las recomendaciones de la W3C con respecto al uso de RDF y OWL van
-    enfocadas a construir la Web Semántica.
-    Ejemplo: Hacer Ejemplo de mi Información con semántica propia XMLS.
-    Web Semántica
-    - ¿Cómo construir la Web Semántica?
-    o Utilizar adecuadamente las URI y URL. (identificación única de los recursos web)
-    o Crear y utilizar un lenguaje que describa y relacione los recursos de la Web
-    o Debe ser procesable por las máquinas y entendibles a los humanos
-    o Debe ser estándar y que use tecnologías completamente interoperables.
-    - ¿Cuándo se implemente la WS, que características tendremos en la Web?
-    o Es capaz de organizar la información y estructurarla lógicamente.
-    o Permite integrar recursos web con diferentes formatos.
-    o Permite la interoperabilidad entre dispositivos.
-    o Es capaz de contestar con exactitud lo que el usuario busca.
-    - Piedra angular de la WS: Metadatos
-    o Se pueden encontrar en las propiedades de los recursos web (Word, pdf,
-    imágenes, páginas Web, metadatos sociales, micro-formatos, etc.).
-    o Estructura de un metadato: Recurso (sujeto)  Propiedad (predicado)  Valor
-    (objeto). En dónde cada uno puede ser un URI.
-    o Se pueden implementar utilizando:
-     Microformatos – Etiquetas de metadatos (meta)
-     Mediante especificaciones XHTML llamados (schema)
-     Mediante perfiles (profiles).
-     Mediante la definición personalizada de metadatos (archivos RDF)
-    o ¿Qué Tecnologías necesita la Web Semántica?
-     XML, RDF , SPARQL, OWL y RDFa
-    Ejemplo: Hacer una página con metadatos “meta” con las diferentes formas
 </body>
 </html>
