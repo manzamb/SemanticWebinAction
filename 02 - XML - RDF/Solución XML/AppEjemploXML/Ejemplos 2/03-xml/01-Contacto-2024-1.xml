@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <!DOCTYPE listaContactos [
-<!ELEMENT listaContactos (contacto)+>
-<!-- Elemento Raiz del árbol: 
+  <!ELEMENT listaContactos (contacto)+>
+  <!-- Elemento Raiz del árbol: 
        - Son obligatorios: nombre, apellidos
        - Es opcional (?): fecha_nacimiento
        - Se compone de 1 o más subelementos: se usa +
        - Se compone de 0 o más subelementos: correos-->
-<!ELEMENT contacto (nombre, apellidos, fecha_nacimiento?, correos*) >
-<!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT apellidos (#PCDATA)>
-<!ELEMENT fecha_nacimiento (#PCDATA)>
-<!-- Elementos del segundo nivel del arbol-->
-<!ELEMENT correos (idcorreo, correo)>
-<!ELEMENT idcorreo (#PCDATA)>
-<!ELEMENT correo (#PCDATA)>
+  <!ELEMENT contacto (nombre, apellidos, fecha_nacimiento?, correos*) >
+  <!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT fecha_nacimiento (#PCDATA)>
+  <!-- Elementos del segundo nivel del arbol-->
+  <!ELEMENT correos (idcorreo, correo)>
+  <!ELEMENT idcorreo (#PCDATA)>
+  <!ELEMENT correo (#PCDATA)>
 ]>
 
 
@@ -49,4 +49,14 @@
     </correos>
   </contacto>
 
+  <contacto>
+    <nombre>Carlos Alberto</nombre>
+    <apellidos>Cobos Lozada</apellidos>
+    <fecha_nacimiento>11/02/1971</fecha_nacimiento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <correo>ccobos@unicauca.edu.co</correo>
+    </correos>
+  </contacto>
+  
 </listaContactos>
