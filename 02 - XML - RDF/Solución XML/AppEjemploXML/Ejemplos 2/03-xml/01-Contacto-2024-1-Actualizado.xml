@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos.xslt"?>-->
+<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos_2024.xslt"?>
 <!--<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDContactos_2024_1.dtd">-->
 
 <listaContactos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
