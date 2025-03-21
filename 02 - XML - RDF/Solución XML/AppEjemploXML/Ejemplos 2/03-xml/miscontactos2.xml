@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ListaContactos2 [
+  <!ELEMENT ListaContactos2 (MiContacto)+>
+  <!-- Elemento Raiz del árbol: 
+       - Son obligatorios: nombre, apellidos
+       - Es opcional (?): fecha_nacimiento
+       - Se compone de 1 o más subelementos: se usa +
+       - Se compone de 0 o más subelementos: correos-->
+  <!ELEMENT MiContacto (Nombre+, Telefono+, Email?) >
+  <!-- Estableciendo los tipos de datos de los elementos hoja de PERSONACONTACTO-->
+  <!ELEMENT Nombre (#PCDATA)>
+  <!ELEMENT Telefono (#PCDATA)>
+  <!ELEMENT Email (#PCDATA)>
+]>
+<ListaContactos2>
+    <MiContacto>
+        <Nombre>Jose Perez</Nombre>
+        <Telefono>555-1234</Telefono>
+        <Email>joseperez@hotmail.comorem.com</Email>
+    </MiContacto>
+    <MiContacto>
+        <Nombre>Maria Lopez</Nombre>
+        <Telefono>555-5678</Telefono>
+        <Email>marialopez@hotmail.comorem.com</Email>
+    </MiContacto>
+    <MiContacto>
+        <Nombre>Jorge Cerquera</Nombre>
+        <Telefono>555-9876</Telefono>
+        <Email>jcerquera@hotmail.comorem.com</Email>
+    </MiContacto>
+</ListaContactos2>
