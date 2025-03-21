@@ -27,18 +27,4 @@
       </correo>
     </correos>
   </contacto>
-
-  <contacto>
-    <nombre></nombre>
-    <apellidos></apellidos>
-    <fecha_nacimiento></fecha_nacimiento>
-    <correos></correos>
-  </contacto>
-
-  <contacto>
-    <nombre></nombre>
-    <apellidos></apellidos>
-    <fecha_nacimiento></fecha_nacimiento>
-    <correos></correos>
-  </contacto>
 </listacontactos>

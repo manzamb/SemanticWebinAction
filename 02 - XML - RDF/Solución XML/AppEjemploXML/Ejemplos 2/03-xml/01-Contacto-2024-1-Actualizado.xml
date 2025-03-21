@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="../05-xslt/XSLContactos_2024.xslt"?>
+<!--<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDContactos_2024_1.dtd">-->
+
+<listaContactos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:noNamespaceSchemaLocation="../04-xsd/01-Contacto-2024-1-XSD.xsd">
+  <contacto>
+    <nombre>Carlos</nombre>
+    <apellidos> Diaz Santacruz </apellidos>
+    <fecha_nacimiento>1977-10-29</fecha_nacimiento>
+    <correos> 
+      <correo idcorreo="1">andres.diaz@unicauca.edu.co</correo>
+      <correo idcorreo="2">andres.diaz@gmail.com</correo>
+    </correos>
+  </contacto>
+  
+  <contacto>
+    <nombre>Isabel</nombre>
+    <apellidos> Mejia</apellidos>
+    <fecha_nacimiento>1977-10-29</fecha_nacimiento>
+    <correos>
+      <correo idcorreo="1">imejia@unicauca.edu.co</correo>
+      <correo idcorreo="2">imejia@hotmail.com</correo>
+    </correos>
+  </contacto>
+
+  <contacto>
+    <nombre>Carlos Alberto</nombre>
+    <apellidos>Cobos Lozada</apellidos>
+    <fecha_nacimiento>1971-02-11</fecha_nacimiento>
+    <correos>
+      <correo idcorreo="1">ccobos@unicauca.edu.co</correo>
+      <correo idcorreo="2">coboscarlos@gmail.com</correo>
+    </correos>
+  </contacto>
+  
+</listaContactos>

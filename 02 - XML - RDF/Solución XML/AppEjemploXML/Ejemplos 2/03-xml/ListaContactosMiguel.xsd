@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="listaContactos">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element ref="PERSONACONTACTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PERSONACONTACTO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" />
+        <xs:element ref="apellidos" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="fechanacimiento" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="correos" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="telefonos" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="direcciones" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="relacion" />
+      </xs:sequence>
+      <xs:attribute default="profesional" name="tipoPersona">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="amigo" />
+            <xs:enumeration value="familiar" />
+            <xs:enumeration value="profesional" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="idpersona" type="xs:ID" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="correos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="idcorreo" />
+        <xs:element ref="descripcion" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="tipoc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="telefonos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="idtelefono" />
+        <xs:element ref="numero" />
+      </xs:sequence>
+      <xs:attribute name="tipoTelefono" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="oficina" />
+            <xs:enumeration value="personal" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="indicativo" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="direcciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="iddireccion" />
+        <xs:element ref="calle" />
+        <xs:element ref="numerocasa" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ciudad" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="pais" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="tipod" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="apellidos" type="xs:string" />
+  <xs:element name="fechanacimiento" type="xs:string" />
+  <xs:element name="relacion">
+    <xs:complexType>
+      <xs:attribute name="amigo-de" type="xs:IDREFS" />
+      <xs:attribute name="familiar-de" type="xs:IDREFS" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idcorreo" type="xs:string" />
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="tipoc" type="xs:string" />
+  <xs:element name="idtelefono" type="xs:string" />
+  <xs:element name="numero" type="xs:string" />
+  <xs:element name="iddireccion" type="xs:string" />
+  <xs:element name="calle" type="xs:string" />
+  <xs:element name="numerocasa" type="xs:string" />
+  <xs:element name="ciudad" type="xs:string" />
+  <xs:element name="pais" type="xs:string" />
+  <xs:element name="tipod">
+    <xs:complexType>
+      <xs:attribute name="lugar">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="oficina" />
+            <xs:enumeration value="casa" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

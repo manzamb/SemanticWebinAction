@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Listacorreos>
+  <correo>
+    <de>Siler</de>
+    <para>Miguel</para>
+    <fecha hora="16:42:00">
+      <dia>16</dia>
+      <mes>09</mes>
+      <anno>2021</anno>
+    </fecha>
+    <asunto>Respuesta</asunto>
+    <mensaje>Si voy asistir!</mensaje>
+  </correo>
+</Listacorreos>

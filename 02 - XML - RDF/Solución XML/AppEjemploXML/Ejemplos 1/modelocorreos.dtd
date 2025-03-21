@@ -1,0 +1,15 @@
+﻿<!ELEMENT Listacorreos (correo+)>
+<!ELEMENT correo (de, para,fecha, asunto, mensaje, utc?)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT fecha (dia, mes, año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT utc (#PCDATA)>
+
+<!ATTLIST correo idcorreo CDATA #REQUIRED>
+<!ATTLIST fecha hora CDATA #REQUIRED>
+<!ATTLIST de idrespuesta CDATA #REQUIRED>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE Listacorreos SYSTEM "modelocorreos.dtd">
+
+<Listacorreos>
+  <correo idcorreo ="1">
+    <de idrespuesta="">Miguel Angel Niño</de>
+    <para>Siler Amador</para>
+    <fecha hora="16:42">
+      <dia>16</dia>
+      <mes>09</mes>
+      <año>2021</año>
+    </fecha>
+    <asunto>Recordatorio de Ponencia</asunto>
+    <mensaje>
+      Hola Siler vas asistir a la confrencia?
+      Mguel
+    </mensaje>
+    <utc></utc>
+  </correo>
+
+  <correo idcorreo="2">
+    <de idrespuesta="1">Siler</de>
+    <para>Miguel</para>
+    <fecha hora="16:42:00">
+      <dia>16</dia>
+      <mes>09</mes>
+      <año>2021</año>
+    </fecha>
+    <asunto>Respuesta</asunto>
+    <mensaje>Si voy asistir!</mensaje>
+  </correo>
+
+  <correo idcorreo="3">
+    <de idrespuesta="2">Miguel</de>
+    <para>Siler</para>
+    <fecha hora="17:03:00">
+      <dia>16</dia>
+      <mes>09</mes>
+      <año>2021</año>
+    </fecha>
+    <asunto>Respuesta</asunto>
+    <mensaje>OK!</mensaje>
+    <utc>-5</utc>
+  </correo>
+  
+</Listacorreos>

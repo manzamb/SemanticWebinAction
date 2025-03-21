@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <listaContactos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="../04-xsd/ListaContactosMiguel.xsd">
-
+                 xsi:noNamespaceSchemaLocation="./ListaContactosMiguel.xsd">
+ 
   <PERSONACONTACTO idpersona="ccobos" tipoPersona="amigo">
     <nombre>Carlos Alberto</nombre>
     <apellidos>Cobos Lozada</apellidos>
@@ -41,7 +41,7 @@
       <pais>Colombia</pais>
       <tipod  lugar="casa"/>
     </direcciones>
-    <relacion amigo-de ="ccobos" familiar-de=""/>
+    <relacion amigo-de ="ccobos" familiar-de="mmendoza"/>
   </PERSONACONTACTO>
 
   <PERSONACONTACTO idpersona="mmendoza" tipoPersona="amigo">
@@ -60,6 +60,20 @@
       <tipod  lugar="oficina"/>
     </direcciones>
     <relacion familiar-de="ccobos" amigo-de="emezav"/>
+  </PERSONACONTACTO>
+
+  <PERSONACONTACTO idpersona="samador" tipoPersona="amigo">
+    <nombre>Siler</nombre>
+    <apellidos>Amador Donado</apellidos>
+    <fechanacimiento></fechanacimiento>
+    <correos></correos>
+  </PERSONACONTACTO>
+
+  <PERSONACONTACTO idpersona="cardila" tipoPersona="amigo">
+    <nombre>Carlos</nombre>
+    <apellidos>Ardila</apellidos>
+    <fechanacimiento></fechanacimiento>
+    <correos></correos>
   </PERSONACONTACTO>
   
 </listaContactos>
