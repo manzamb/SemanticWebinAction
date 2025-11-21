@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<lista  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="../04-xsd/MisContactos.xsd">
-  <Contacto>
+<!-- <lista  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../04-xsd/MisContactos.xsd"> -->
+<lista>
+  <Contacto id="1" >
     <nombre>Juan Espinosa</nombre>
     <pais>Mexico</pais>
     <Departamento>Sistemas</Departamento>

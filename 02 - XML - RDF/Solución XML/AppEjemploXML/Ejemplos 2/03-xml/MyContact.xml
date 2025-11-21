@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE listaContactos SYSTEM "../02-dtd/DTDMyContact.dtd">
+<!DOCTYPE Contactos SYSTEM "../2-dtd/DTDMyContact.dtd"0>
 <Contactos>
-
   <contacto>
-    <nombre> Juan Manuel Chagüendo Benavides </nombre>
+    <nombre> Miguel Angel Nino Zambrano </nombre>
     <pais> Colombia </pais>
     <departamento> Sistemas </departamento>
+    <correos>
+      <idcorreo>1</idcorreo>
+      <descripcion>manzamb@hotmail.com</descripcion>
+      <tipoc>personal</tipoc>
+    </correos>
+    <telefonos>
+      <idtelefono></idtelefono>
+      <numero></numero>
+    </telefonos>
   </contacto>
 
   <contacto>
@@ -19,7 +27,4 @@
     <pais> EE.UU </pais>
     <departamento> Facebook.Inc </departamento>
   </contacto>
- 
-  
-
 </Contactos>
